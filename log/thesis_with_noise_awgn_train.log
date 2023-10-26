@@ -1,0 +1,1073 @@
+2023-10-25 10:55:24,273 - logs - INFO - Dataset Load!!!, train_num: 577, valid_num:60
+2023-10-25 10:55:24,274 - logs - INFO - *****************   start train   *****************
+2023-10-25 10:55:51,779 - logs - INFO - Dataset Load!!!, train_num: 577, valid_num:60
+2023-10-25 10:55:51,779 - logs - INFO - *****************   start train   *****************
+2023-10-25 10:57:44,408 - logs - INFO - train epoch 1/450, train_loss = 0.0002631900, time = 112.6279327869
+2023-10-25 10:57:48,118 - logs - INFO - valid epoch 1/450, valid_loss = 0.0000877076, time = 3.7085123062
+2023-10-25 10:57:48,127 - logs - INFO - Comparsion, model saved, epoch:1
+2023-10-25 10:59:40,283 - logs - INFO - train epoch 2/450, train_loss = 0.0000709813, time = 112.1546139717
+2023-10-25 10:59:43,981 - logs - INFO - valid epoch 2/450, valid_loss = 0.0000649608, time = 3.6968951225
+2023-10-25 10:59:43,990 - logs - INFO - Comparsion, model saved, epoch:2
+2023-10-25 11:01:36,130 - logs - INFO - train epoch 3/450, train_loss = 0.0000682053, time = 112.1390309334
+2023-10-25 11:01:39,841 - logs - INFO - valid epoch 3/450, valid_loss = 0.0000647844, time = 3.7091710567
+2023-10-25 11:01:39,850 - logs - INFO - Comparsion, model saved, epoch:3
+2023-10-25 11:03:31,978 - logs - INFO - train epoch 4/450, train_loss = 0.0000679095, time = 112.1272413731
+2023-10-25 11:03:35,684 - logs - INFO - valid epoch 4/450, valid_loss = 0.0000648310, time = 3.7048606873
+2023-10-25 11:05:27,801 - logs - INFO - train epoch 5/450, train_loss = 0.0000676563, time = 112.1157414913
+2023-10-25 11:05:31,535 - logs - INFO - valid epoch 5/450, valid_loss = 0.0000642528, time = 3.7321174145
+2023-10-25 11:05:31,545 - logs - INFO - Comparsion, model saved, epoch:5
+2023-10-25 11:05:31,554 - logs - INFO - Latest, model saved, epoch:5
+2023-10-25 11:07:23,695 - logs - INFO - train epoch 6/450, train_loss = 0.0000674678, time = 112.1397387981
+2023-10-25 11:07:27,393 - logs - INFO - valid epoch 6/450, valid_loss = 0.0000642178, time = 3.6963346004
+2023-10-25 11:07:27,402 - logs - INFO - Comparsion, model saved, epoch:6
+2023-10-25 11:09:19,538 - logs - INFO - train epoch 7/450, train_loss = 0.0000673079, time = 112.1343488693
+2023-10-25 11:09:23,250 - logs - INFO - valid epoch 7/450, valid_loss = 0.0000639233, time = 3.7116358280
+2023-10-25 11:09:23,261 - logs - INFO - Comparsion, model saved, epoch:7
+2023-10-25 11:11:15,395 - logs - INFO - train epoch 8/450, train_loss = 0.0000671022, time = 112.1331288815
+2023-10-25 11:11:19,090 - logs - INFO - valid epoch 8/450, valid_loss = 0.0000639662, time = 3.6943600178
+2023-10-25 11:13:11,244 - logs - INFO - train epoch 9/450, train_loss = 0.0000670949, time = 112.1525802612
+2023-10-25 11:13:14,960 - logs - INFO - valid epoch 9/450, valid_loss = 0.0000638768, time = 3.7143247128
+2023-10-25 11:13:14,969 - logs - INFO - Comparsion, model saved, epoch:9
+2023-10-25 11:15:07,113 - logs - INFO - train epoch 10/450, train_loss = 0.0000669957, time = 112.1424381733
+2023-10-25 11:15:10,809 - logs - INFO - valid epoch 10/450, valid_loss = 0.0000637867, time = 3.6954255104
+2023-10-25 11:15:10,819 - logs - INFO - Comparsion, model saved, epoch:10
+2023-10-25 11:15:10,827 - logs - INFO - Latest, model saved, epoch:10
+2023-10-25 11:17:03,024 - logs - INFO - train epoch 11/450, train_loss = 0.0000669449, time = 112.1951589584
+2023-10-25 11:17:06,716 - logs - INFO - valid epoch 11/450, valid_loss = 0.0000637628, time = 3.6909189224
+2023-10-25 11:17:06,725 - logs - INFO - Comparsion, model saved, epoch:11
+2023-10-25 11:19:05,612 - logs - INFO - train epoch 12/450, train_loss = 0.0000668941, time = 118.8858959675
+2023-10-25 11:19:09,854 - logs - INFO - valid epoch 12/450, valid_loss = 0.0000637722, time = 4.2393157482
+2023-10-25 11:21:08,605 - logs - INFO - train epoch 13/450, train_loss = 0.0000669006, time = 118.7492647171
+2023-10-25 11:21:12,953 - logs - INFO - valid epoch 13/450, valid_loss = 0.0000637182, time = 4.3469531536
+2023-10-25 11:21:12,971 - logs - INFO - Comparsion, model saved, epoch:13
+2023-10-25 11:23:11,640 - logs - INFO - train epoch 14/450, train_loss = 0.0000668835, time = 118.6675958633
+2023-10-25 11:23:15,785 - logs - INFO - valid epoch 14/450, valid_loss = 0.0000636626, time = 4.1435618401
+2023-10-25 11:23:15,812 - logs - INFO - Comparsion, model saved, epoch:14
+2023-10-25 11:25:14,944 - logs - INFO - train epoch 15/450, train_loss = 0.0000668366, time = 119.1299359798
+2023-10-25 11:25:18,910 - logs - INFO - valid epoch 15/450, valid_loss = 0.0000636201, time = 3.9647471905
+2023-10-25 11:25:18,927 - logs - INFO - Comparsion, model saved, epoch:15
+2023-10-25 11:25:18,949 - logs - INFO - Latest, model saved, epoch:15
+2023-10-25 11:27:14,547 - logs - INFO - train epoch 16/450, train_loss = 0.0000668198, time = 115.5958156586
+2023-10-25 11:27:18,262 - logs - INFO - valid epoch 16/450, valid_loss = 0.0000636929, time = 3.7139616013
+2023-10-25 11:29:10,409 - logs - INFO - train epoch 17/450, train_loss = 0.0000668310, time = 112.1454346180
+2023-10-25 11:29:14,130 - logs - INFO - valid epoch 17/450, valid_loss = 0.0000636128, time = 3.7199432850
+2023-10-25 11:29:14,139 - logs - INFO - Comparsion, model saved, epoch:17
+2023-10-25 11:31:06,282 - logs - INFO - train epoch 18/450, train_loss = 0.0000668055, time = 112.1411733627
+2023-10-25 11:31:09,997 - logs - INFO - valid epoch 18/450, valid_loss = 0.0000636849, time = 3.7142808437
+2023-10-25 11:33:02,159 - logs - INFO - train epoch 19/450, train_loss = 0.0000667696, time = 112.1610467434
+2023-10-25 11:33:05,853 - logs - INFO - valid epoch 19/450, valid_loss = 0.0000637115, time = 3.6920919418
+2023-10-25 11:34:57,931 - logs - INFO - train epoch 20/450, train_loss = 0.0000667846, time = 112.0777032375
+2023-10-25 11:35:01,631 - logs - INFO - valid epoch 20/450, valid_loss = 0.0000637169, time = 3.6978278160
+2023-10-25 11:35:01,641 - logs - INFO - Latest, model saved, epoch:20
+2023-10-25 11:36:53,729 - logs - INFO - train epoch 21/450, train_loss = 0.0000667860, time = 112.0872731209
+2023-10-25 11:36:57,427 - logs - INFO - valid epoch 21/450, valid_loss = 0.0000636552, time = 3.6971037388
+2023-10-25 11:38:49,560 - logs - INFO - train epoch 22/450, train_loss = 0.0000667294, time = 112.1322300434
+2023-10-25 11:38:53,267 - logs - INFO - valid epoch 22/450, valid_loss = 0.0000635695, time = 3.7051367760
+2023-10-25 11:38:53,276 - logs - INFO - Comparsion, model saved, epoch:22
+2023-10-25 11:40:45,398 - logs - INFO - train epoch 23/450, train_loss = 0.0000667293, time = 112.1213653088
+2023-10-25 11:40:49,104 - logs - INFO - valid epoch 23/450, valid_loss = 0.0000635950, time = 3.7047493458
+2023-10-25 11:42:41,260 - logs - INFO - train epoch 24/450, train_loss = 0.0000667295, time = 112.1545574665
+2023-10-25 11:42:44,963 - logs - INFO - valid epoch 24/450, valid_loss = 0.0000636071, time = 3.7015874386
+2023-10-25 11:44:37,089 - logs - INFO - train epoch 25/450, train_loss = 0.0000667552, time = 112.1244676113
+2023-10-25 11:44:40,805 - logs - INFO - valid epoch 25/450, valid_loss = 0.0000635430, time = 3.7152891159
+2023-10-25 11:44:40,814 - logs - INFO - Comparsion, model saved, epoch:25
+2023-10-25 11:44:40,823 - logs - INFO - Latest, model saved, epoch:25
+2023-10-25 11:46:32,938 - logs - INFO - train epoch 26/450, train_loss = 0.0000667271, time = 112.1139929295
+2023-10-25 11:46:36,642 - logs - INFO - valid epoch 26/450, valid_loss = 0.0000635822, time = 3.7024161816
+2023-10-25 11:48:28,803 - logs - INFO - train epoch 27/450, train_loss = 0.0000666941, time = 112.1601421833
+2023-10-25 11:48:32,550 - logs - INFO - valid epoch 27/450, valid_loss = 0.0000636221, time = 3.7454657555
+2023-10-25 11:50:24,705 - logs - INFO - train epoch 28/450, train_loss = 0.0000666837, time = 112.1539769173
+2023-10-25 11:50:28,403 - logs - INFO - valid epoch 28/450, valid_loss = 0.0000635655, time = 3.6970913410
+2023-10-25 11:52:20,525 - logs - INFO - train epoch 29/450, train_loss = 0.0000666633, time = 112.1206774712
+2023-10-25 11:52:24,238 - logs - INFO - valid epoch 29/450, valid_loss = 0.0000635877, time = 3.7121345997
+2023-10-25 11:54:16,272 - logs - INFO - train epoch 30/450, train_loss = 0.0000666539, time = 112.0332477093
+2023-10-25 11:54:19,973 - logs - INFO - valid epoch 30/450, valid_loss = 0.0000635114, time = 3.6996650696
+2023-10-25 11:54:19,983 - logs - INFO - Comparsion, model saved, epoch:30
+2023-10-25 11:54:19,992 - logs - INFO - Latest, model saved, epoch:30
+2023-10-25 11:56:12,047 - logs - INFO - train epoch 31/450, train_loss = 0.0000666671, time = 112.0536122322
+2023-10-25 11:56:15,759 - logs - INFO - valid epoch 31/450, valid_loss = 0.0000634925, time = 3.7108657360
+2023-10-25 11:56:15,768 - logs - INFO - Comparsion, model saved, epoch:31
+2023-10-25 11:58:07,812 - logs - INFO - train epoch 32/450, train_loss = 0.0000666497, time = 112.0428552628
+2023-10-25 11:58:11,540 - logs - INFO - valid epoch 32/450, valid_loss = 0.0000634591, time = 3.7262568474
+2023-10-25 11:58:11,550 - logs - INFO - Comparsion, model saved, epoch:32
+2023-10-25 12:00:03,605 - logs - INFO - train epoch 33/450, train_loss = 0.0000666941, time = 112.0540487766
+2023-10-25 12:00:07,314 - logs - INFO - valid epoch 33/450, valid_loss = 0.0000634957, time = 3.7077205181
+2023-10-25 12:01:59,421 - logs - INFO - train epoch 34/450, train_loss = 0.0000666360, time = 112.1062202454
+2023-10-25 12:02:03,119 - logs - INFO - valid epoch 34/450, valid_loss = 0.0000635395, time = 3.6964225769
+2023-10-25 12:03:55,243 - logs - INFO - train epoch 35/450, train_loss = 0.0000666475, time = 112.1232318878
+2023-10-25 12:03:58,952 - logs - INFO - valid epoch 35/450, valid_loss = 0.0000635677, time = 3.7079305649
+2023-10-25 12:03:58,962 - logs - INFO - Latest, model saved, epoch:35
+2023-10-25 12:05:51,048 - logs - INFO - train epoch 36/450, train_loss = 0.0000666131, time = 112.0850949287
+2023-10-25 12:05:54,750 - logs - INFO - valid epoch 36/450, valid_loss = 0.0000635572, time = 3.7008562088
+2023-10-25 12:07:46,937 - logs - INFO - train epoch 37/450, train_loss = 0.0000666383, time = 112.1857883930
+2023-10-25 12:07:50,643 - logs - INFO - valid epoch 37/450, valid_loss = 0.0000635539, time = 3.7047381401
+2023-10-25 12:09:42,771 - logs - INFO - train epoch 38/450, train_loss = 0.0000666060, time = 112.1265976429
+2023-10-25 12:09:46,463 - logs - INFO - valid epoch 38/450, valid_loss = 0.0000634615, time = 3.6916728020
+2023-10-25 12:11:38,560 - logs - INFO - train epoch 39/450, train_loss = 0.0000666121, time = 112.0951120853
+2023-10-25 12:11:42,275 - logs - INFO - valid epoch 39/450, valid_loss = 0.0000634781, time = 3.7137463093
+2023-10-25 12:13:34,402 - logs - INFO - train epoch 40/450, train_loss = 0.0000666453, time = 112.1263434887
+2023-10-25 12:13:38,145 - logs - INFO - valid epoch 40/450, valid_loss = 0.0000634542, time = 3.7409861088
+2023-10-25 12:13:38,154 - logs - INFO - Comparsion, model saved, epoch:40
+2023-10-25 12:13:38,163 - logs - INFO - Latest, model saved, epoch:40
+2023-10-25 12:15:30,292 - logs - INFO - train epoch 41/450, train_loss = 0.0000665941, time = 112.1279766560
+2023-10-25 12:15:33,997 - logs - INFO - valid epoch 41/450, valid_loss = 0.0000635968, time = 3.7032122612
+2023-10-25 12:17:26,163 - logs - INFO - train epoch 42/450, train_loss = 0.0000666072, time = 112.1657609940
+2023-10-25 12:17:29,868 - logs - INFO - valid epoch 42/450, valid_loss = 0.0000634814, time = 3.7032418251
+2023-10-25 12:19:21,948 - logs - INFO - train epoch 43/450, train_loss = 0.0000666107, time = 112.0789506435
+2023-10-25 12:19:25,651 - logs - INFO - valid epoch 43/450, valid_loss = 0.0000634465, time = 3.7018496990
+2023-10-25 12:19:25,661 - logs - INFO - Comparsion, model saved, epoch:43
+2023-10-25 12:21:17,761 - logs - INFO - train epoch 44/450, train_loss = 0.0000665537, time = 112.0989613533
+2023-10-25 12:21:21,478 - logs - INFO - valid epoch 44/450, valid_loss = 0.0000635392, time = 3.7159099579
+2023-10-25 12:23:13,652 - logs - INFO - train epoch 45/450, train_loss = 0.0000665825, time = 112.1733276844
+2023-10-25 12:23:17,366 - logs - INFO - valid epoch 45/450, valid_loss = 0.0000635302, time = 3.7125003338
+2023-10-25 12:23:17,376 - logs - INFO - Latest, model saved, epoch:45
+2023-10-25 12:25:09,521 - logs - INFO - train epoch 46/450, train_loss = 0.0000665556, time = 112.1444702148
+2023-10-25 12:25:13,255 - logs - INFO - valid epoch 46/450, valid_loss = 0.0000634779, time = 3.7330794334
+2023-10-25 12:27:05,396 - logs - INFO - train epoch 47/450, train_loss = 0.0000665625, time = 112.1394381523
+2023-10-25 12:27:09,120 - logs - INFO - valid epoch 47/450, valid_loss = 0.0000634447, time = 3.7223296165
+2023-10-25 12:27:09,130 - logs - INFO - Comparsion, model saved, epoch:47
+2023-10-25 12:29:01,268 - logs - INFO - train epoch 48/450, train_loss = 0.0000665092, time = 112.1373844147
+2023-10-25 12:29:04,974 - logs - INFO - valid epoch 48/450, valid_loss = 0.0000634817, time = 3.7046289444
+2023-10-25 12:30:57,120 - logs - INFO - train epoch 49/450, train_loss = 0.0000665333, time = 112.1445877552
+2023-10-25 12:31:00,820 - logs - INFO - valid epoch 49/450, valid_loss = 0.0000634402, time = 3.6995394230
+2023-10-25 12:31:00,830 - logs - INFO - Comparsion, model saved, epoch:49
+2023-10-25 12:32:53,037 - logs - INFO - train epoch 50/450, train_loss = 0.0000665383, time = 112.2061500549
+2023-10-25 12:32:56,741 - logs - INFO - valid epoch 50/450, valid_loss = 0.0000634684, time = 3.7022538185
+2023-10-25 12:32:56,750 - logs - INFO - Per 50, model saved, epoch:50
+2023-10-25 12:32:56,758 - logs - INFO - Latest, model saved, epoch:50
+2023-10-25 12:34:48,835 - logs - INFO - train epoch 51/450, train_loss = 0.0000665528, time = 112.0760633945
+2023-10-25 12:34:52,560 - logs - INFO - valid epoch 51/450, valid_loss = 0.0000634229, time = 3.7232930660
+2023-10-25 12:34:52,569 - logs - INFO - Comparsion, model saved, epoch:51
+2023-10-25 12:36:44,679 - logs - INFO - train epoch 52/450, train_loss = 0.0000665226, time = 112.1082618237
+2023-10-25 12:36:48,373 - logs - INFO - valid epoch 52/450, valid_loss = 0.0000634872, time = 3.6935617924
+2023-10-25 12:38:40,475 - logs - INFO - train epoch 53/450, train_loss = 0.0000665293, time = 112.1001114845
+2023-10-25 12:38:44,187 - logs - INFO - valid epoch 53/450, valid_loss = 0.0000634123, time = 3.7110080719
+2023-10-25 12:38:44,197 - logs - INFO - Comparsion, model saved, epoch:53
+2023-10-25 12:40:36,318 - logs - INFO - train epoch 54/450, train_loss = 0.0000665434, time = 112.1192827225
+2023-10-25 12:40:40,050 - logs - INFO - valid epoch 54/450, valid_loss = 0.0000634028, time = 3.7315437794
+2023-10-25 12:40:40,060 - logs - INFO - Comparsion, model saved, epoch:54
+2023-10-25 12:42:32,236 - logs - INFO - train epoch 55/450, train_loss = 0.0000664717, time = 112.1749994755
+2023-10-25 12:42:35,952 - logs - INFO - valid epoch 55/450, valid_loss = 0.0000634840, time = 3.7152009010
+2023-10-25 12:42:35,962 - logs - INFO - Latest, model saved, epoch:55
+2023-10-25 12:44:28,127 - logs - INFO - train epoch 56/450, train_loss = 0.0000664935, time = 112.1636869907
+2023-10-25 12:44:31,836 - logs - INFO - valid epoch 56/450, valid_loss = 0.0000633851, time = 3.7077267170
+2023-10-25 12:44:31,847 - logs - INFO - Comparsion, model saved, epoch:56
+2023-10-25 12:46:24,010 - logs - INFO - train epoch 57/450, train_loss = 0.0000664907, time = 112.1618857384
+2023-10-25 12:46:27,713 - logs - INFO - valid epoch 57/450, valid_loss = 0.0000634135, time = 3.7016954422
+2023-10-25 12:48:19,844 - logs - INFO - train epoch 58/450, train_loss = 0.0000664739, time = 112.1302204132
+2023-10-25 12:48:23,548 - logs - INFO - valid epoch 58/450, valid_loss = 0.0000634786, time = 3.7026748657
+2023-10-25 12:50:28,789 - logs - INFO - train epoch 59/450, train_loss = 0.0000664893, time = 125.2396581173
+2023-10-25 12:50:36,512 - logs - INFO - valid epoch 59/450, valid_loss = 0.0000634232, time = 7.7214026451
+2023-10-25 12:54:34,433 - logs - INFO - train epoch 60/450, train_loss = 0.0000664938, time = 237.9206192493
+2023-10-25 12:54:42,118 - logs - INFO - valid epoch 60/450, valid_loss = 0.0000633642, time = 7.6829242706
+2023-10-25 12:54:42,127 - logs - INFO - Comparsion, model saved, epoch:60
+2023-10-25 12:54:42,136 - logs - INFO - Latest, model saved, epoch:60
+2023-10-25 12:58:40,194 - logs - INFO - train epoch 61/450, train_loss = 0.0000664746, time = 238.0565929413
+2023-10-25 12:58:47,921 - logs - INFO - valid epoch 61/450, valid_loss = 0.0000633658, time = 7.7255306244
+2023-10-25 13:02:46,101 - logs - INFO - train epoch 62/450, train_loss = 0.0000665120, time = 238.1780900955
+2023-10-25 13:02:53,779 - logs - INFO - valid epoch 62/450, valid_loss = 0.0000633334, time = 7.6774296761
+2023-10-25 13:02:53,789 - logs - INFO - Comparsion, model saved, epoch:62
+2023-10-25 13:06:48,715 - logs - INFO - train epoch 63/450, train_loss = 0.0000664748, time = 234.9252612591
+2023-10-25 13:06:52,431 - logs - INFO - valid epoch 63/450, valid_loss = 0.0000633533, time = 3.7143588066
+2023-10-25 13:08:44,589 - logs - INFO - train epoch 64/450, train_loss = 0.0000664830, time = 112.1564164162
+2023-10-25 13:08:48,297 - logs - INFO - valid epoch 64/450, valid_loss = 0.0000633788, time = 3.7075924873
+2023-10-25 13:10:40,379 - logs - INFO - train epoch 65/450, train_loss = 0.0000665004, time = 112.0802993774
+2023-10-25 13:10:44,106 - logs - INFO - valid epoch 65/450, valid_loss = 0.0000633266, time = 3.7263240814
+2023-10-25 13:10:44,116 - logs - INFO - Comparsion, model saved, epoch:65
+2023-10-25 13:10:44,124 - logs - INFO - Latest, model saved, epoch:65
+2023-10-25 13:12:36,190 - logs - INFO - train epoch 66/450, train_loss = 0.0000664565, time = 112.0648491383
+2023-10-25 13:12:39,896 - logs - INFO - valid epoch 66/450, valid_loss = 0.0000634421, time = 3.7043673992
+2023-10-25 13:14:37,759 - logs - INFO - train epoch 67/450, train_loss = 0.0000664715, time = 117.8621888161
+2023-10-25 13:14:41,962 - logs - INFO - valid epoch 67/450, valid_loss = 0.0000635665, time = 4.2011430264
+2023-10-25 13:16:39,538 - logs - INFO - train epoch 68/450, train_loss = 0.0000664363, time = 117.5739743710
+2023-10-25 13:16:43,754 - logs - INFO - valid epoch 68/450, valid_loss = 0.0000633255, time = 4.2144715786
+2023-10-25 13:16:43,772 - logs - INFO - Comparsion, model saved, epoch:68
+2023-10-25 13:18:42,046 - logs - INFO - train epoch 69/450, train_loss = 0.0000664946, time = 118.2721443176
+2023-10-25 13:18:46,325 - logs - INFO - valid epoch 69/450, valid_loss = 0.0000632728, time = 4.2772338390
+2023-10-25 13:18:46,342 - logs - INFO - Comparsion, model saved, epoch:69
+2023-10-25 13:20:45,160 - logs - INFO - train epoch 70/450, train_loss = 0.0000664807, time = 118.8162825108
+2023-10-25 13:20:49,247 - logs - INFO - valid epoch 70/450, valid_loss = 0.0000632991, time = 4.0854983330
+2023-10-25 13:20:49,269 - logs - INFO - Latest, model saved, epoch:70
+2023-10-25 13:22:45,045 - logs - INFO - train epoch 71/450, train_loss = 0.0000664581, time = 115.7747790813
+2023-10-25 13:22:48,750 - logs - INFO - valid epoch 71/450, valid_loss = 0.0000633903, time = 3.7031519413
+2023-10-25 13:24:40,842 - logs - INFO - train epoch 72/450, train_loss = 0.0000664439, time = 112.0916535854
+2023-10-25 13:24:44,550 - logs - INFO - valid epoch 72/450, valid_loss = 0.0000633298, time = 3.7068831921
+2023-10-25 13:26:36,649 - logs - INFO - train epoch 73/450, train_loss = 0.0000664146, time = 112.0974357128
+2023-10-25 13:26:40,361 - logs - INFO - valid epoch 73/450, valid_loss = 0.0000633402, time = 3.7108261585
+2023-10-25 13:28:32,512 - logs - INFO - train epoch 74/450, train_loss = 0.0000664167, time = 112.1498973370
+2023-10-25 13:28:36,215 - logs - INFO - valid epoch 74/450, valid_loss = 0.0000632858, time = 3.7017915249
+2023-10-25 13:30:28,318 - logs - INFO - train epoch 75/450, train_loss = 0.0000664410, time = 112.1015055180
+2023-10-25 13:30:32,029 - logs - INFO - valid epoch 75/450, valid_loss = 0.0000633389, time = 3.7102959156
+2023-10-25 13:30:32,039 - logs - INFO - Latest, model saved, epoch:75
+2023-10-25 13:32:24,171 - logs - INFO - train epoch 76/450, train_loss = 0.0000663797, time = 112.1313683987
+2023-10-25 13:32:27,873 - logs - INFO - valid epoch 76/450, valid_loss = 0.0000632968, time = 3.7008328438
+2023-10-25 13:34:19,964 - logs - INFO - train epoch 77/450, train_loss = 0.0000663970, time = 112.0893657207
+2023-10-25 13:34:23,682 - logs - INFO - valid epoch 77/450, valid_loss = 0.0000633220, time = 3.7165846825
+2023-10-25 13:36:15,866 - logs - INFO - train epoch 78/450, train_loss = 0.0000664333, time = 112.1822223663
+2023-10-25 13:36:19,571 - logs - INFO - valid epoch 78/450, valid_loss = 0.0000633140, time = 3.7040622234
+2023-10-25 13:38:11,721 - logs - INFO - train epoch 79/450, train_loss = 0.0000664410, time = 112.1491281986
+2023-10-25 13:38:15,420 - logs - INFO - valid epoch 79/450, valid_loss = 0.0000633815, time = 3.6976170540
+2023-10-25 13:40:07,542 - logs - INFO - train epoch 80/450, train_loss = 0.0000664307, time = 112.1205358505
+2023-10-25 13:40:11,239 - logs - INFO - valid epoch 80/450, valid_loss = 0.0000633081, time = 3.6955418587
+2023-10-25 13:40:11,249 - logs - INFO - Latest, model saved, epoch:80
+2023-10-25 13:42:03,459 - logs - INFO - train epoch 81/450, train_loss = 0.0000663742, time = 112.2091524601
+2023-10-25 13:42:07,157 - logs - INFO - valid epoch 81/450, valid_loss = 0.0000633436, time = 3.6964836121
+2023-10-25 13:43:59,309 - logs - INFO - train epoch 82/450, train_loss = 0.0000664063, time = 112.1514902115
+2023-10-25 13:44:03,031 - logs - INFO - valid epoch 82/450, valid_loss = 0.0000632338, time = 3.7205300331
+2023-10-25 13:44:03,041 - logs - INFO - Comparsion, model saved, epoch:82
+2023-10-25 13:45:55,155 - logs - INFO - train epoch 83/450, train_loss = 0.0000663725, time = 112.1137576103
+2023-10-25 13:45:58,857 - logs - INFO - valid epoch 83/450, valid_loss = 0.0000633383, time = 3.7008638382
+2023-10-25 13:47:51,037 - logs - INFO - train epoch 84/450, train_loss = 0.0000663611, time = 112.1785497665
+2023-10-25 13:47:54,748 - logs - INFO - valid epoch 84/450, valid_loss = 0.0000632885, time = 3.7094945908
+2023-10-25 13:49:46,894 - logs - INFO - train epoch 85/450, train_loss = 0.0000663630, time = 112.1448168755
+2023-10-25 13:49:50,591 - logs - INFO - valid epoch 85/450, valid_loss = 0.0000632710, time = 3.6963591576
+2023-10-25 13:49:50,601 - logs - INFO - Latest, model saved, epoch:85
+2023-10-25 13:51:42,799 - logs - INFO - train epoch 86/450, train_loss = 0.0000663608, time = 112.1977336407
+2023-10-25 13:51:46,507 - logs - INFO - valid epoch 86/450, valid_loss = 0.0000633004, time = 3.7058627605
+2023-10-25 13:53:38,597 - logs - INFO - train epoch 87/450, train_loss = 0.0000663175, time = 112.0893213749
+2023-10-25 13:53:42,313 - logs - INFO - valid epoch 87/450, valid_loss = 0.0000631884, time = 3.7148318291
+2023-10-25 13:53:42,323 - logs - INFO - Comparsion, model saved, epoch:87
+2023-10-25 13:55:34,473 - logs - INFO - train epoch 88/450, train_loss = 0.0000663710, time = 112.1492793560
+2023-10-25 13:55:38,181 - logs - INFO - valid epoch 88/450, valid_loss = 0.0000632869, time = 3.7070353031
+2023-10-25 13:57:30,327 - logs - INFO - train epoch 89/450, train_loss = 0.0000663972, time = 112.1450264454
+2023-10-25 13:57:34,039 - logs - INFO - valid epoch 89/450, valid_loss = 0.0000632089, time = 3.7110235691
+2023-10-25 13:59:26,120 - logs - INFO - train epoch 90/450, train_loss = 0.0000663631, time = 112.0790588856
+2023-10-25 13:59:29,842 - logs - INFO - valid epoch 90/450, valid_loss = 0.0000633562, time = 3.7216422558
+2023-10-25 13:59:29,853 - logs - INFO - Latest, model saved, epoch:90
+2023-10-25 14:01:22,017 - logs - INFO - train epoch 91/450, train_loss = 0.0000663514, time = 112.1636245251
+2023-10-25 14:01:25,714 - logs - INFO - valid epoch 91/450, valid_loss = 0.0000632811, time = 3.6949834824
+2023-10-25 14:03:17,850 - logs - INFO - train epoch 92/450, train_loss = 0.0000663403, time = 112.1349341869
+2023-10-25 14:03:21,561 - logs - INFO - valid epoch 92/450, valid_loss = 0.0000632376, time = 3.7103586197
+2023-10-25 14:05:13,653 - logs - INFO - train epoch 93/450, train_loss = 0.0000663574, time = 112.0903391838
+2023-10-25 14:05:17,356 - logs - INFO - valid epoch 93/450, valid_loss = 0.0000632707, time = 3.7022509575
+2023-10-25 14:07:09,443 - logs - INFO - train epoch 94/450, train_loss = 0.0000663412, time = 112.0860934258
+2023-10-25 14:07:13,144 - logs - INFO - valid epoch 94/450, valid_loss = 0.0000632180, time = 3.6993329525
+2023-10-25 14:09:05,246 - logs - INFO - train epoch 95/450, train_loss = 0.0000663383, time = 112.1007525921
+2023-10-25 14:09:08,983 - logs - INFO - valid epoch 95/450, valid_loss = 0.0000632138, time = 3.7359690666
+2023-10-25 14:09:08,993 - logs - INFO - Latest, model saved, epoch:95
+2023-10-25 14:11:01,101 - logs - INFO - train epoch 96/450, train_loss = 0.0000662905, time = 112.1078109741
+2023-10-25 14:11:04,823 - logs - INFO - valid epoch 96/450, valid_loss = 0.0000633048, time = 3.7201111317
+2023-10-25 14:12:57,004 - logs - INFO - train epoch 97/450, train_loss = 0.0000663209, time = 112.1797764301
+2023-10-25 14:13:00,759 - logs - INFO - valid epoch 97/450, valid_loss = 0.0000632458, time = 3.7544772625
+2023-10-25 14:14:52,899 - logs - INFO - train epoch 98/450, train_loss = 0.0000663169, time = 112.1386251450
+2023-10-25 14:14:56,626 - logs - INFO - valid epoch 98/450, valid_loss = 0.0000632388, time = 3.7252190113
+2023-10-25 14:16:48,754 - logs - INFO - train epoch 99/450, train_loss = 0.0000663324, time = 112.1267855167
+2023-10-25 14:16:52,463 - logs - INFO - valid epoch 99/450, valid_loss = 0.0000632592, time = 3.7086989880
+2023-10-25 14:18:44,559 - logs - INFO - train epoch 100/450, train_loss = 0.0000663150, time = 112.0948336124
+2023-10-25 14:18:48,257 - logs - INFO - valid epoch 100/450, valid_loss = 0.0000632791, time = 3.6963121891
+2023-10-25 14:18:48,267 - logs - INFO - Per 50, model saved, epoch:100
+2023-10-25 14:18:48,276 - logs - INFO - Latest, model saved, epoch:100
+2023-10-25 14:20:40,390 - logs - INFO - train epoch 101/450, train_loss = 0.0000662681, time = 112.1122343540
+2023-10-25 14:20:44,112 - logs - INFO - valid epoch 101/450, valid_loss = 0.0000632622, time = 3.7213754654
+2023-10-25 14:22:36,228 - logs - INFO - train epoch 102/450, train_loss = 0.0000662992, time = 112.1148946285
+2023-10-25 14:22:39,941 - logs - INFO - valid epoch 102/450, valid_loss = 0.0000631564, time = 3.7112913132
+2023-10-25 14:22:39,950 - logs - INFO - Comparsion, model saved, epoch:102
+2023-10-25 14:24:32,126 - logs - INFO - train epoch 103/450, train_loss = 0.0000663282, time = 112.1751875877
+2023-10-25 14:24:35,867 - logs - INFO - valid epoch 103/450, valid_loss = 0.0000632739, time = 3.7394390106
+2023-10-25 14:26:28,010 - logs - INFO - train epoch 104/450, train_loss = 0.0000662748, time = 112.1417160034
+2023-10-25 14:26:31,714 - logs - INFO - valid epoch 104/450, valid_loss = 0.0000631600, time = 3.7024924755
+2023-10-25 14:28:23,871 - logs - INFO - train epoch 105/450, train_loss = 0.0000663063, time = 112.1564128399
+2023-10-25 14:28:27,572 - logs - INFO - valid epoch 105/450, valid_loss = 0.0000631101, time = 3.6991355419
+2023-10-25 14:28:27,581 - logs - INFO - Comparsion, model saved, epoch:105
+2023-10-25 14:28:27,590 - logs - INFO - Latest, model saved, epoch:105
+2023-10-25 14:30:19,741 - logs - INFO - train epoch 106/450, train_loss = 0.0000662873, time = 112.1508910656
+2023-10-25 14:30:23,437 - logs - INFO - valid epoch 106/450, valid_loss = 0.0000631784, time = 3.6943366528
+2023-10-25 14:32:15,581 - logs - INFO - train epoch 107/450, train_loss = 0.0000662558, time = 112.1431164742
+2023-10-25 14:32:19,287 - logs - INFO - valid epoch 107/450, valid_loss = 0.0000631276, time = 3.7046205997
+2023-10-25 14:34:11,338 - logs - INFO - train epoch 108/450, train_loss = 0.0000662839, time = 112.0499567986
+2023-10-25 14:34:15,034 - logs - INFO - valid epoch 108/450, valid_loss = 0.0000631411, time = 3.6943929195
+2023-10-25 14:36:07,152 - logs - INFO - train epoch 109/450, train_loss = 0.0000662647, time = 112.1171452999
+2023-10-25 14:36:10,847 - logs - INFO - valid epoch 109/450, valid_loss = 0.0000632071, time = 3.6939942837
+2023-10-25 14:38:02,956 - logs - INFO - train epoch 110/450, train_loss = 0.0000662369, time = 112.1077294350
+2023-10-25 14:38:06,673 - logs - INFO - valid epoch 110/450, valid_loss = 0.0000631360, time = 3.7155058384
+2023-10-25 14:38:06,682 - logs - INFO - Latest, model saved, epoch:110
+2023-10-25 14:39:58,821 - logs - INFO - train epoch 111/450, train_loss = 0.0000662852, time = 112.1376497746
+2023-10-25 14:40:02,529 - logs - INFO - valid epoch 111/450, valid_loss = 0.0000631880, time = 3.7064135075
+2023-10-25 14:41:54,685 - logs - INFO - train epoch 112/450, train_loss = 0.0000662277, time = 112.1556341648
+2023-10-25 14:41:58,405 - logs - INFO - valid epoch 112/450, valid_loss = 0.0000631811, time = 3.7181947231
+2023-10-25 14:43:50,543 - logs - INFO - train epoch 113/450, train_loss = 0.0000662328, time = 112.1371359825
+2023-10-25 14:43:54,269 - logs - INFO - valid epoch 113/450, valid_loss = 0.0000631326, time = 3.7244467735
+2023-10-25 14:45:46,390 - logs - INFO - train epoch 114/450, train_loss = 0.0000662557, time = 112.1199572086
+2023-10-25 14:45:50,099 - logs - INFO - valid epoch 114/450, valid_loss = 0.0000632047, time = 3.7077186108
+2023-10-25 14:47:42,183 - logs - INFO - train epoch 115/450, train_loss = 0.0000662378, time = 112.0829551220
+2023-10-25 14:47:45,882 - logs - INFO - valid epoch 115/450, valid_loss = 0.0000631507, time = 3.6976470947
+2023-10-25 14:47:45,891 - logs - INFO - Latest, model saved, epoch:115
+2023-10-25 14:49:38,047 - logs - INFO - train epoch 116/450, train_loss = 0.0000662494, time = 112.1549758911
+2023-10-25 14:49:41,764 - logs - INFO - valid epoch 116/450, valid_loss = 0.0000632023, time = 3.7159335613
+2023-10-25 14:51:33,863 - logs - INFO - train epoch 117/450, train_loss = 0.0000661939, time = 112.0972833633
+2023-10-25 14:51:37,564 - logs - INFO - valid epoch 117/450, valid_loss = 0.0000631611, time = 3.6999552250
+2023-10-25 14:53:29,656 - logs - INFO - train epoch 118/450, train_loss = 0.0000662346, time = 112.0909998417
+2023-10-25 14:53:33,375 - logs - INFO - valid epoch 118/450, valid_loss = 0.0000630776, time = 3.7177238464
+2023-10-25 14:53:33,385 - logs - INFO - Comparsion, model saved, epoch:118
+2023-10-25 14:55:25,490 - logs - INFO - train epoch 119/450, train_loss = 0.0000662112, time = 112.1039297581
+2023-10-25 14:55:29,199 - logs - INFO - valid epoch 119/450, valid_loss = 0.0000631538, time = 3.7079746723
+2023-10-25 14:57:21,310 - logs - INFO - train epoch 120/450, train_loss = 0.0000662096, time = 112.1100981236
+2023-10-25 14:57:25,016 - logs - INFO - valid epoch 120/450, valid_loss = 0.0000631042, time = 3.7043836117
+2023-10-25 14:57:25,025 - logs - INFO - Latest, model saved, epoch:120
+2023-10-25 14:59:17,220 - logs - INFO - train epoch 121/450, train_loss = 0.0000661934, time = 112.1939239502
+2023-10-25 14:59:20,914 - logs - INFO - valid epoch 121/450, valid_loss = 0.0000631433, time = 3.6925697327
+2023-10-25 15:01:13,061 - logs - INFO - train epoch 122/450, train_loss = 0.0000661931, time = 112.1454129219
+2023-10-25 15:01:16,756 - logs - INFO - valid epoch 122/450, valid_loss = 0.0000631268, time = 3.6938872337
+2023-10-25 15:03:08,881 - logs - INFO - train epoch 123/450, train_loss = 0.0000662061, time = 112.1244049072
+2023-10-25 15:03:12,601 - logs - INFO - valid epoch 123/450, valid_loss = 0.0000631724, time = 3.7190215588
+2023-10-25 15:05:04,690 - logs - INFO - train epoch 124/450, train_loss = 0.0000661927, time = 112.0878038406
+2023-10-25 15:05:08,412 - logs - INFO - valid epoch 124/450, valid_loss = 0.0000630809, time = 3.7203366756
+2023-10-25 15:07:00,522 - logs - INFO - train epoch 125/450, train_loss = 0.0000662165, time = 112.1094846725
+2023-10-25 15:07:04,235 - logs - INFO - valid epoch 125/450, valid_loss = 0.0000630497, time = 3.7112810612
+2023-10-25 15:07:04,244 - logs - INFO - Comparsion, model saved, epoch:125
+2023-10-25 15:07:04,253 - logs - INFO - Latest, model saved, epoch:125
+2023-10-25 15:08:56,470 - logs - INFO - train epoch 126/450, train_loss = 0.0000661842, time = 112.2153165340
+2023-10-25 15:09:00,171 - logs - INFO - valid epoch 126/450, valid_loss = 0.0000631188, time = 3.7000277042
+2023-10-25 15:10:52,320 - logs - INFO - train epoch 127/450, train_loss = 0.0000661980, time = 112.1482582092
+2023-10-25 15:10:56,025 - logs - INFO - valid epoch 127/450, valid_loss = 0.0000630535, time = 3.7033853531
+2023-10-25 15:12:48,178 - logs - INFO - train epoch 128/450, train_loss = 0.0000661522, time = 112.1519834995
+2023-10-25 15:12:51,879 - logs - INFO - valid epoch 128/450, valid_loss = 0.0000630360, time = 3.7001872063
+2023-10-25 15:12:51,889 - logs - INFO - Comparsion, model saved, epoch:128
+2023-10-25 15:14:44,063 - logs - INFO - train epoch 129/450, train_loss = 0.0000662026, time = 112.1735191345
+2023-10-25 15:14:47,776 - logs - INFO - valid epoch 129/450, valid_loss = 0.0000630731, time = 3.7112975121
+2023-10-25 15:16:39,835 - logs - INFO - train epoch 130/450, train_loss = 0.0000661647, time = 112.0583541393
+2023-10-25 15:16:43,532 - logs - INFO - valid epoch 130/450, valid_loss = 0.0000631131, time = 3.6950612068
+2023-10-25 15:16:43,542 - logs - INFO - Latest, model saved, epoch:130
+2023-10-25 15:18:35,629 - logs - INFO - train epoch 131/450, train_loss = 0.0000661420, time = 112.0867850780
+2023-10-25 15:18:39,348 - logs - INFO - valid epoch 131/450, valid_loss = 0.0000630123, time = 3.7176790237
+2023-10-25 15:18:39,357 - logs - INFO - Comparsion, model saved, epoch:131
+2023-10-25 15:20:31,449 - logs - INFO - train epoch 132/450, train_loss = 0.0000661384, time = 112.0910573006
+2023-10-25 15:20:35,144 - logs - INFO - valid epoch 132/450, valid_loss = 0.0000630115, time = 3.6931207180
+2023-10-25 15:20:35,153 - logs - INFO - Comparsion, model saved, epoch:132
+2023-10-25 15:22:27,262 - logs - INFO - train epoch 133/450, train_loss = 0.0000661644, time = 112.1077389717
+2023-10-25 15:22:30,963 - logs - INFO - valid epoch 133/450, valid_loss = 0.0000631287, time = 3.7001981735
+2023-10-25 15:24:23,084 - logs - INFO - train epoch 134/450, train_loss = 0.0000661888, time = 112.1197922230
+2023-10-25 15:24:26,791 - logs - INFO - valid epoch 134/450, valid_loss = 0.0000630487, time = 3.7055008411
+2023-10-25 15:26:18,950 - logs - INFO - train epoch 135/450, train_loss = 0.0000661437, time = 112.1576890945
+2023-10-25 15:26:22,654 - logs - INFO - valid epoch 135/450, valid_loss = 0.0000629817, time = 3.7029750347
+2023-10-25 15:26:22,664 - logs - INFO - Comparsion, model saved, epoch:135
+2023-10-25 15:26:22,673 - logs - INFO - Latest, model saved, epoch:135
+2023-10-25 15:28:14,814 - logs - INFO - train epoch 136/450, train_loss = 0.0000661131, time = 112.1396839619
+2023-10-25 15:28:18,521 - logs - INFO - valid epoch 136/450, valid_loss = 0.0000630965, time = 3.7060008049
+2023-10-25 15:30:10,579 - logs - INFO - train epoch 137/450, train_loss = 0.0000661551, time = 112.0567462444
+2023-10-25 15:30:14,280 - logs - INFO - valid epoch 137/450, valid_loss = 0.0000630291, time = 3.7002310753
+2023-10-25 15:32:06,348 - logs - INFO - train epoch 138/450, train_loss = 0.0000661604, time = 112.0670709610
+2023-10-25 15:32:10,063 - logs - INFO - valid epoch 138/450, valid_loss = 0.0000630731, time = 3.7138249874
+2023-10-25 15:34:02,205 - logs - INFO - train epoch 139/450, train_loss = 0.0000661877, time = 112.1404168606
+2023-10-25 15:34:05,904 - logs - INFO - valid epoch 139/450, valid_loss = 0.0000630487, time = 3.6982893944
+2023-10-25 15:35:58,076 - logs - INFO - train epoch 140/450, train_loss = 0.0000661249, time = 112.1702034473
+2023-10-25 15:36:01,797 - logs - INFO - valid epoch 140/450, valid_loss = 0.0000630411, time = 3.7197303772
+2023-10-25 15:36:01,806 - logs - INFO - Latest, model saved, epoch:140
+2023-10-25 15:37:53,892 - logs - INFO - train epoch 141/450, train_loss = 0.0000661083, time = 112.0844275951
+2023-10-25 15:37:57,605 - logs - INFO - valid epoch 141/450, valid_loss = 0.0000630791, time = 3.7119548321
+2023-10-25 15:39:49,790 - logs - INFO - train epoch 142/450, train_loss = 0.0000661288, time = 112.1833686829
+2023-10-25 15:39:53,508 - logs - INFO - valid epoch 142/450, valid_loss = 0.0000629892, time = 3.7176644802
+2023-10-25 15:41:45,680 - logs - INFO - train epoch 143/450, train_loss = 0.0000661090, time = 112.1702105999
+2023-10-25 15:41:49,381 - logs - INFO - valid epoch 143/450, valid_loss = 0.0000630038, time = 3.6999106407
+2023-10-25 15:43:41,523 - logs - INFO - train epoch 144/450, train_loss = 0.0000661194, time = 112.1410617828
+2023-10-25 15:43:45,251 - logs - INFO - valid epoch 144/450, valid_loss = 0.0000630608, time = 3.7267282009
+2023-10-25 15:45:37,339 - logs - INFO - train epoch 145/450, train_loss = 0.0000660758, time = 112.0867061615
+2023-10-25 15:45:41,043 - logs - INFO - valid epoch 145/450, valid_loss = 0.0000631098, time = 3.7021181583
+2023-10-25 15:45:41,052 - logs - INFO - Latest, model saved, epoch:145
+2023-10-25 15:47:33,171 - logs - INFO - train epoch 146/450, train_loss = 0.0000661319, time = 112.1175868511
+2023-10-25 15:47:36,882 - logs - INFO - valid epoch 146/450, valid_loss = 0.0000630198, time = 3.7104177475
+2023-10-25 15:49:29,050 - logs - INFO - train epoch 147/450, train_loss = 0.0000660869, time = 112.1662230492
+2023-10-25 15:49:32,750 - logs - INFO - valid epoch 147/450, valid_loss = 0.0000630508, time = 3.6995501518
+2023-10-25 15:51:24,828 - logs - INFO - train epoch 148/450, train_loss = 0.0000660659, time = 112.0760974884
+2023-10-25 15:51:28,528 - logs - INFO - valid epoch 148/450, valid_loss = 0.0000630253, time = 3.6989448071
+2023-10-25 15:53:20,628 - logs - INFO - train epoch 149/450, train_loss = 0.0000660894, time = 112.0990400314
+2023-10-25 15:53:24,327 - logs - INFO - valid epoch 149/450, valid_loss = 0.0000631073, time = 3.6975486279
+2023-10-25 15:55:16,472 - logs - INFO - train epoch 150/450, train_loss = 0.0000660561, time = 112.1440026760
+2023-10-25 15:55:20,170 - logs - INFO - valid epoch 150/450, valid_loss = 0.0000630071, time = 3.6963551044
+2023-10-25 15:55:20,179 - logs - INFO - Per 50, model saved, epoch:150
+2023-10-25 15:55:20,187 - logs - INFO - Latest, model saved, epoch:150
+2023-10-25 15:57:12,313 - logs - INFO - train epoch 151/450, train_loss = 0.0000660877, time = 112.1246342659
+2023-10-25 15:57:16,049 - logs - INFO - valid epoch 151/450, valid_loss = 0.0000629975, time = 3.7347645760
+2023-10-25 15:59:08,190 - logs - INFO - train epoch 152/450, train_loss = 0.0000660675, time = 112.1400704384
+2023-10-25 15:59:11,893 - logs - INFO - valid epoch 152/450, valid_loss = 0.0000629929, time = 3.7010784149
+2023-10-25 16:01:04,071 - logs - INFO - train epoch 153/450, train_loss = 0.0000660653, time = 112.1772456169
+2023-10-25 16:01:07,813 - logs - INFO - valid epoch 153/450, valid_loss = 0.0000629624, time = 3.7407548428
+2023-10-25 16:01:07,823 - logs - INFO - Comparsion, model saved, epoch:153
+2023-10-25 16:02:59,996 - logs - INFO - train epoch 154/450, train_loss = 0.0000660903, time = 112.1722471714
+2023-10-25 16:03:03,685 - logs - INFO - valid epoch 154/450, valid_loss = 0.0000629800, time = 3.6880054474
+2023-10-25 16:04:55,822 - logs - INFO - train epoch 155/450, train_loss = 0.0000660660, time = 112.1363117695
+2023-10-25 16:04:59,537 - logs - INFO - valid epoch 155/450, valid_loss = 0.0000630063, time = 3.7138197422
+2023-10-25 16:04:59,547 - logs - INFO - Latest, model saved, epoch:155
+2023-10-25 16:06:51,783 - logs - INFO - train epoch 156/450, train_loss = 0.0000660786, time = 112.2353005409
+2023-10-25 16:06:55,484 - logs - INFO - valid epoch 156/450, valid_loss = 0.0000629562, time = 3.6994054317
+2023-10-25 16:06:55,494 - logs - INFO - Comparsion, model saved, epoch:156
+2023-10-25 16:08:47,629 - logs - INFO - train epoch 157/450, train_loss = 0.0000660613, time = 112.1348602772
+2023-10-25 16:08:51,339 - logs - INFO - valid epoch 157/450, valid_loss = 0.0000629717, time = 3.7086467743
+2023-10-25 16:10:43,438 - logs - INFO - train epoch 158/450, train_loss = 0.0000660794, time = 112.0978810787
+2023-10-25 16:10:47,140 - logs - INFO - valid epoch 158/450, valid_loss = 0.0000629802, time = 3.7004115582
+2023-10-25 16:12:39,282 - logs - INFO - train epoch 159/450, train_loss = 0.0000660177, time = 112.1408054829
+2023-10-25 16:12:42,984 - logs - INFO - valid epoch 159/450, valid_loss = 0.0000629142, time = 3.7006425858
+2023-10-25 16:12:42,994 - logs - INFO - Comparsion, model saved, epoch:159
+2023-10-25 16:14:35,124 - logs - INFO - train epoch 160/450, train_loss = 0.0000660338, time = 112.1298644543
+2023-10-25 16:14:38,833 - logs - INFO - valid epoch 160/450, valid_loss = 0.0000629642, time = 3.7078771591
+2023-10-25 16:14:38,843 - logs - INFO - Latest, model saved, epoch:160
+2023-10-25 16:16:30,962 - logs - INFO - train epoch 161/450, train_loss = 0.0000660669, time = 112.1178119183
+2023-10-25 16:16:34,665 - logs - INFO - valid epoch 161/450, valid_loss = 0.0000630247, time = 3.7026171684
+2023-10-25 16:18:26,772 - logs - INFO - train epoch 162/450, train_loss = 0.0000660527, time = 112.1056108475
+2023-10-25 16:18:30,470 - logs - INFO - valid epoch 162/450, valid_loss = 0.0000629314, time = 3.6961646080
+2023-10-25 16:20:22,586 - logs - INFO - train epoch 163/450, train_loss = 0.0000660148, time = 112.1155602932
+2023-10-25 16:20:26,289 - logs - INFO - valid epoch 163/450, valid_loss = 0.0000629529, time = 3.7017464638
+2023-10-25 16:22:18,430 - logs - INFO - train epoch 164/450, train_loss = 0.0000660255, time = 112.1392509937
+2023-10-25 16:22:22,139 - logs - INFO - valid epoch 164/450, valid_loss = 0.0000629345, time = 3.7079777718
+2023-10-25 16:24:14,292 - logs - INFO - train epoch 165/450, train_loss = 0.0000660016, time = 112.1514487267
+2023-10-25 16:24:18,008 - logs - INFO - valid epoch 165/450, valid_loss = 0.0000629318, time = 3.7147886753
+2023-10-25 16:24:18,021 - logs - INFO - Latest, model saved, epoch:165
+2023-10-25 16:26:10,165 - logs - INFO - train epoch 166/450, train_loss = 0.0000660180, time = 112.1417722702
+2023-10-25 16:26:13,895 - logs - INFO - valid epoch 166/450, valid_loss = 0.0000629891, time = 3.7294280529
+2023-10-25 16:28:06,048 - logs - INFO - train epoch 167/450, train_loss = 0.0000660286, time = 112.1518990993
+2023-10-25 16:28:09,748 - logs - INFO - valid epoch 167/450, valid_loss = 0.0000629361, time = 3.6985833645
+2023-10-25 16:30:01,823 - logs - INFO - train epoch 168/450, train_loss = 0.0000660102, time = 112.0736904144
+2023-10-25 16:30:05,526 - logs - INFO - valid epoch 168/450, valid_loss = 0.0000629506, time = 3.7020184994
+2023-10-25 16:31:57,586 - logs - INFO - train epoch 169/450, train_loss = 0.0000659913, time = 112.0583832264
+2023-10-25 16:32:01,281 - logs - INFO - valid epoch 169/450, valid_loss = 0.0000628928, time = 3.6943292618
+2023-10-25 16:32:01,291 - logs - INFO - Comparsion, model saved, epoch:169
+2023-10-25 16:33:53,407 - logs - INFO - train epoch 170/450, train_loss = 0.0000659934, time = 112.1157720089
+2023-10-25 16:33:57,123 - logs - INFO - valid epoch 170/450, valid_loss = 0.0000628876, time = 3.7149960995
+2023-10-25 16:33:57,133 - logs - INFO - Comparsion, model saved, epoch:170
+2023-10-25 16:33:57,142 - logs - INFO - Latest, model saved, epoch:170
+2023-10-25 16:35:49,217 - logs - INFO - train epoch 171/450, train_loss = 0.0000660377, time = 112.0740153790
+2023-10-25 16:35:52,938 - logs - INFO - valid epoch 171/450, valid_loss = 0.0000628771, time = 3.7197134495
+2023-10-25 16:35:52,948 - logs - INFO - Comparsion, model saved, epoch:171
+2023-10-25 16:37:45,032 - logs - INFO - train epoch 172/450, train_loss = 0.0000660094, time = 112.0837094784
+2023-10-25 16:37:48,751 - logs - INFO - valid epoch 172/450, valid_loss = 0.0000628441, time = 3.7179217339
+2023-10-25 16:37:48,761 - logs - INFO - Comparsion, model saved, epoch:172
+2023-10-25 16:39:40,839 - logs - INFO - train epoch 173/450, train_loss = 0.0000659769, time = 112.0772390366
+2023-10-25 16:39:44,530 - logs - INFO - valid epoch 173/450, valid_loss = 0.0000628792, time = 3.6895618439
+2023-10-25 16:41:36,625 - logs - INFO - train epoch 174/450, train_loss = 0.0000659689, time = 112.0938935280
+2023-10-25 16:41:40,342 - logs - INFO - valid epoch 174/450, valid_loss = 0.0000629562, time = 3.7158739567
+2023-10-25 16:43:32,497 - logs - INFO - train epoch 175/450, train_loss = 0.0000659881, time = 112.1538071632
+2023-10-25 16:43:36,197 - logs - INFO - valid epoch 175/450, valid_loss = 0.0000629609, time = 3.6986794472
+2023-10-25 16:43:36,207 - logs - INFO - Latest, model saved, epoch:175
+2023-10-25 16:45:28,368 - logs - INFO - train epoch 176/450, train_loss = 0.0000659393, time = 112.1600511074
+2023-10-25 16:45:32,073 - logs - INFO - valid epoch 176/450, valid_loss = 0.0000628569, time = 3.7036232948
+2023-10-25 16:47:24,233 - logs - INFO - train epoch 177/450, train_loss = 0.0000659940, time = 112.1590020657
+2023-10-25 16:47:27,936 - logs - INFO - valid epoch 177/450, valid_loss = 0.0000628662, time = 3.7015523911
+2023-10-25 16:49:20,089 - logs - INFO - train epoch 178/450, train_loss = 0.0000660042, time = 112.1521763802
+2023-10-25 16:49:23,786 - logs - INFO - valid epoch 178/450, valid_loss = 0.0000628868, time = 3.6952142715
+2023-10-25 16:51:15,882 - logs - INFO - train epoch 179/450, train_loss = 0.0000659923, time = 112.0955588818
+2023-10-25 16:51:19,633 - logs - INFO - valid epoch 179/450, valid_loss = 0.0000629249, time = 3.7496986389
+2023-10-25 16:53:11,752 - logs - INFO - train epoch 180/450, train_loss = 0.0000659706, time = 112.1177015305
+2023-10-25 16:53:15,457 - logs - INFO - valid epoch 180/450, valid_loss = 0.0000628691, time = 3.7038121223
+2023-10-25 16:53:15,466 - logs - INFO - Latest, model saved, epoch:180
+2023-10-25 16:55:07,586 - logs - INFO - train epoch 181/450, train_loss = 0.0000659847, time = 112.1185376644
+2023-10-25 16:55:11,292 - logs - INFO - valid epoch 181/450, valid_loss = 0.0000629264, time = 3.7052173615
+2023-10-25 16:57:03,433 - logs - INFO - train epoch 182/450, train_loss = 0.0000659466, time = 112.1396818161
+2023-10-25 16:57:07,130 - logs - INFO - valid epoch 182/450, valid_loss = 0.0000629180, time = 3.6956059933
+2023-10-25 16:58:59,289 - logs - INFO - train epoch 183/450, train_loss = 0.0000659268, time = 112.1580836773
+2023-10-25 16:59:02,999 - logs - INFO - valid epoch 183/450, valid_loss = 0.0000628906, time = 3.7084801197
+2023-10-25 17:00:55,158 - logs - INFO - train epoch 184/450, train_loss = 0.0000659399, time = 112.1573300362
+2023-10-25 17:00:58,858 - logs - INFO - valid epoch 184/450, valid_loss = 0.0000628606, time = 3.6992640495
+2023-10-25 17:02:51,035 - logs - INFO - train epoch 185/450, train_loss = 0.0000659417, time = 112.1760413647
+2023-10-25 17:02:54,749 - logs - INFO - valid epoch 185/450, valid_loss = 0.0000628427, time = 3.7123098373
+2023-10-25 17:02:54,758 - logs - INFO - Comparsion, model saved, epoch:185
+2023-10-25 17:02:54,767 - logs - INFO - Latest, model saved, epoch:185
+2023-10-25 17:04:46,861 - logs - INFO - train epoch 186/450, train_loss = 0.0000659069, time = 112.0931746960
+2023-10-25 17:04:50,585 - logs - INFO - valid epoch 186/450, valid_loss = 0.0000628343, time = 3.7230978012
+2023-10-25 17:04:50,595 - logs - INFO - Comparsion, model saved, epoch:186
+2023-10-25 17:06:42,773 - logs - INFO - train epoch 187/450, train_loss = 0.0000659278, time = 112.1773014069
+2023-10-25 17:06:46,486 - logs - INFO - valid epoch 187/450, valid_loss = 0.0000628453, time = 3.7118237019
+2023-10-25 17:08:38,615 - logs - INFO - train epoch 188/450, train_loss = 0.0000659478, time = 112.1272532940
+2023-10-25 17:08:42,317 - logs - INFO - valid epoch 188/450, valid_loss = 0.0000628310, time = 3.7008545399
+2023-10-25 17:08:42,326 - logs - INFO - Comparsion, model saved, epoch:188
+2023-10-25 17:10:34,414 - logs - INFO - train epoch 189/450, train_loss = 0.0000658869, time = 112.0868575573
+2023-10-25 17:10:38,111 - logs - INFO - valid epoch 189/450, valid_loss = 0.0000628713, time = 3.6956319809
+2023-10-25 17:12:30,215 - logs - INFO - train epoch 190/450, train_loss = 0.0000658891, time = 112.1021265984
+2023-10-25 17:12:33,912 - logs - INFO - valid epoch 190/450, valid_loss = 0.0000628150, time = 3.6957702637
+2023-10-25 17:12:33,921 - logs - INFO - Comparsion, model saved, epoch:190
+2023-10-25 17:12:33,930 - logs - INFO - Latest, model saved, epoch:190
+2023-10-25 17:14:26,052 - logs - INFO - train epoch 191/450, train_loss = 0.0000659353, time = 112.1212646961
+2023-10-25 17:14:29,759 - logs - INFO - valid epoch 191/450, valid_loss = 0.0000628415, time = 3.7056789398
+2023-10-25 17:16:21,925 - logs - INFO - train epoch 192/450, train_loss = 0.0000658929, time = 112.1651213169
+2023-10-25 17:16:25,631 - logs - INFO - valid epoch 192/450, valid_loss = 0.0000627697, time = 3.7051703930
+2023-10-25 17:16:25,642 - logs - INFO - Comparsion, model saved, epoch:192
+2023-10-25 17:18:17,789 - logs - INFO - train epoch 193/450, train_loss = 0.0000659006, time = 112.1457476616
+2023-10-25 17:18:21,495 - logs - INFO - valid epoch 193/450, valid_loss = 0.0000628771, time = 3.7053225040
+2023-10-25 17:20:13,519 - logs - INFO - train epoch 194/450, train_loss = 0.0000659274, time = 112.0228717327
+2023-10-25 17:20:17,237 - logs - INFO - valid epoch 194/450, valid_loss = 0.0000628450, time = 3.7161893845
+2023-10-25 17:22:09,383 - logs - INFO - train epoch 195/450, train_loss = 0.0000659192, time = 112.1450273991
+2023-10-25 17:22:13,092 - logs - INFO - valid epoch 195/450, valid_loss = 0.0000628215, time = 3.7077493668
+2023-10-25 17:22:13,102 - logs - INFO - Latest, model saved, epoch:195
+2023-10-25 17:24:05,303 - logs - INFO - train epoch 196/450, train_loss = 0.0000658916, time = 112.1997203827
+2023-10-25 17:24:09,050 - logs - INFO - valid epoch 196/450, valid_loss = 0.0000628616, time = 3.7457721233
+2023-10-25 17:26:01,187 - logs - INFO - train epoch 197/450, train_loss = 0.0000658729, time = 112.1362185478
+2023-10-25 17:26:04,884 - logs - INFO - valid epoch 197/450, valid_loss = 0.0000628123, time = 3.6961128712
+2023-10-25 17:27:56,966 - logs - INFO - train epoch 198/450, train_loss = 0.0000659044, time = 112.0801327229
+2023-10-25 17:28:00,699 - logs - INFO - valid epoch 198/450, valid_loss = 0.0000627723, time = 3.7317597866
+2023-10-25 17:29:52,824 - logs - INFO - train epoch 199/450, train_loss = 0.0000658472, time = 112.1238780022
+2023-10-25 17:29:56,528 - logs - INFO - valid epoch 199/450, valid_loss = 0.0000627913, time = 3.7031364441
+2023-10-25 17:31:48,658 - logs - INFO - train epoch 200/450, train_loss = 0.0000658380, time = 112.1280298233
+2023-10-25 17:31:52,377 - logs - INFO - valid epoch 200/450, valid_loss = 0.0000628528, time = 3.7181479931
+2023-10-25 17:31:52,386 - logs - INFO - Per 50, model saved, epoch:200
+2023-10-25 17:31:52,394 - logs - INFO - Latest, model saved, epoch:200
+2023-10-25 17:33:44,527 - logs - INFO - train epoch 201/450, train_loss = 0.0000659027, time = 112.1318590641
+2023-10-25 17:33:48,227 - logs - INFO - valid epoch 201/450, valid_loss = 0.0000628169, time = 3.6983606815
+2023-10-25 17:35:40,353 - logs - INFO - train epoch 202/450, train_loss = 0.0000658763, time = 112.1251547337
+2023-10-25 17:35:44,058 - logs - INFO - valid epoch 202/450, valid_loss = 0.0000628811, time = 3.7036278248
+2023-10-25 17:37:36,159 - logs - INFO - train epoch 203/450, train_loss = 0.0000658699, time = 112.0995211601
+2023-10-25 17:37:39,879 - logs - INFO - valid epoch 203/450, valid_loss = 0.0000628133, time = 3.7189569473
+2023-10-25 17:39:32,028 - logs - INFO - train epoch 204/450, train_loss = 0.0000658343, time = 112.1479933262
+2023-10-25 17:39:35,730 - logs - INFO - valid epoch 204/450, valid_loss = 0.0000628041, time = 3.7010290623
+2023-10-25 17:41:27,829 - logs - INFO - train epoch 205/450, train_loss = 0.0000658441, time = 112.0981707573
+2023-10-25 17:41:31,532 - logs - INFO - valid epoch 205/450, valid_loss = 0.0000627679, time = 3.7013397217
+2023-10-25 17:41:31,541 - logs - INFO - Comparsion, model saved, epoch:205
+2023-10-25 17:41:31,550 - logs - INFO - Latest, model saved, epoch:205
+2023-10-25 17:43:23,742 - logs - INFO - train epoch 206/450, train_loss = 0.0000658347, time = 112.1906816959
+2023-10-25 17:43:27,465 - logs - INFO - valid epoch 206/450, valid_loss = 0.0000627478, time = 3.7217359543
+2023-10-25 17:43:27,475 - logs - INFO - Comparsion, model saved, epoch:206
+2023-10-25 17:45:19,633 - logs - INFO - train epoch 207/450, train_loss = 0.0000658721, time = 112.1572132111
+2023-10-25 17:45:23,386 - logs - INFO - valid epoch 207/450, valid_loss = 0.0000627672, time = 3.7509977818
+2023-10-25 17:47:15,520 - logs - INFO - train epoch 208/450, train_loss = 0.0000658519, time = 112.1329731941
+2023-10-25 17:47:19,223 - logs - INFO - valid epoch 208/450, valid_loss = 0.0000628181, time = 3.7018067837
+2023-10-25 17:49:11,307 - logs - INFO - train epoch 209/450, train_loss = 0.0000658417, time = 112.0832586288
+2023-10-25 17:49:15,031 - logs - INFO - valid epoch 209/450, valid_loss = 0.0000627783, time = 3.7231476307
+2023-10-25 17:51:07,127 - logs - INFO - train epoch 210/450, train_loss = 0.0000658278, time = 112.0945959091
+2023-10-25 17:51:10,827 - logs - INFO - valid epoch 210/450, valid_loss = 0.0000628183, time = 3.6989035606
+2023-10-25 17:51:10,837 - logs - INFO - Latest, model saved, epoch:210
+2023-10-25 17:53:02,959 - logs - INFO - train epoch 211/450, train_loss = 0.0000658409, time = 112.1211190224
+2023-10-25 17:53:06,682 - logs - INFO - valid epoch 211/450, valid_loss = 0.0000627626, time = 3.7214424610
+2023-10-25 17:54:58,764 - logs - INFO - train epoch 212/450, train_loss = 0.0000658166, time = 112.0810048580
+2023-10-25 17:55:02,472 - logs - INFO - valid epoch 212/450, valid_loss = 0.0000628416, time = 3.7058510780
+2023-10-25 17:56:54,579 - logs - INFO - train epoch 213/450, train_loss = 0.0000658212, time = 112.1059379578
+2023-10-25 17:56:58,292 - logs - INFO - valid epoch 213/450, valid_loss = 0.0000627196, time = 3.7118761539
+2023-10-25 17:56:58,301 - logs - INFO - Comparsion, model saved, epoch:213
+2023-10-25 17:58:50,378 - logs - INFO - train epoch 214/450, train_loss = 0.0000658155, time = 112.0755407810
+2023-10-25 17:58:54,077 - logs - INFO - valid epoch 214/450, valid_loss = 0.0000627662, time = 3.6980626583
+2023-10-25 18:00:46,145 - logs - INFO - train epoch 215/450, train_loss = 0.0000658201, time = 112.0671381950
+2023-10-25 18:00:49,852 - logs - INFO - valid epoch 215/450, valid_loss = 0.0000627659, time = 3.7057230473
+2023-10-25 18:00:49,862 - logs - INFO - Latest, model saved, epoch:215
+2023-10-25 18:02:41,976 - logs - INFO - train epoch 216/450, train_loss = 0.0000658250, time = 112.1136672497
+2023-10-25 18:02:45,672 - logs - INFO - valid epoch 216/450, valid_loss = 0.0000627113, time = 3.6944398880
+2023-10-25 18:02:45,681 - logs - INFO - Comparsion, model saved, epoch:216
+2023-10-25 18:04:37,795 - logs - INFO - train epoch 217/450, train_loss = 0.0000657995, time = 112.1123018265
+2023-10-25 18:04:41,491 - logs - INFO - valid epoch 217/450, valid_loss = 0.0000627295, time = 3.6952779293
+2023-10-25 18:06:33,603 - logs - INFO - train epoch 218/450, train_loss = 0.0000658150, time = 112.1108777523
+2023-10-25 18:06:37,312 - logs - INFO - valid epoch 218/450, valid_loss = 0.0000627248, time = 3.7070610523
+2023-10-25 18:08:29,486 - logs - INFO - train epoch 219/450, train_loss = 0.0000658083, time = 112.1732983589
+2023-10-25 18:08:33,192 - logs - INFO - valid epoch 219/450, valid_loss = 0.0000628199, time = 3.7044963837
+2023-10-25 18:10:25,354 - logs - INFO - train epoch 220/450, train_loss = 0.0000657889, time = 112.1610481739
+2023-10-25 18:10:29,063 - logs - INFO - valid epoch 220/450, valid_loss = 0.0000627098, time = 3.7077548504
+2023-10-25 18:10:29,073 - logs - INFO - Comparsion, model saved, epoch:220
+2023-10-25 18:10:29,082 - logs - INFO - Latest, model saved, epoch:220
+2023-10-25 18:12:21,193 - logs - INFO - train epoch 221/450, train_loss = 0.0000657564, time = 112.1098723412
+2023-10-25 18:12:24,890 - logs - INFO - valid epoch 221/450, valid_loss = 0.0000627386, time = 3.6951742172
+2023-10-25 18:14:16,972 - logs - INFO - train epoch 222/450, train_loss = 0.0000657721, time = 112.0813302994
+2023-10-25 18:14:20,683 - logs - INFO - valid epoch 222/450, valid_loss = 0.0000627055, time = 3.7096788883
+2023-10-25 18:14:20,692 - logs - INFO - Comparsion, model saved, epoch:222
+2023-10-25 18:16:12,769 - logs - INFO - train epoch 223/450, train_loss = 0.0000658070, time = 112.0755345821
+2023-10-25 18:16:16,466 - logs - INFO - valid epoch 223/450, valid_loss = 0.0000628249, time = 3.6959910393
+2023-10-25 18:18:08,563 - logs - INFO - train epoch 224/450, train_loss = 0.0000657582, time = 112.0958719254
+2023-10-25 18:18:12,268 - logs - INFO - valid epoch 224/450, valid_loss = 0.0000626660, time = 3.7035439014
+2023-10-25 18:18:12,277 - logs - INFO - Comparsion, model saved, epoch:224
+2023-10-25 18:20:04,412 - logs - INFO - train epoch 225/450, train_loss = 0.0000657544, time = 112.1336400509
+2023-10-25 18:20:08,112 - logs - INFO - valid epoch 225/450, valid_loss = 0.0000627581, time = 3.6989846230
+2023-10-25 18:20:08,122 - logs - INFO - Latest, model saved, epoch:225
+2023-10-25 18:22:00,288 - logs - INFO - train epoch 226/450, train_loss = 0.0000657724, time = 112.1651654243
+2023-10-25 18:22:04,000 - logs - INFO - valid epoch 226/450, valid_loss = 0.0000627283, time = 3.7107279301
+2023-10-25 18:23:56,117 - logs - INFO - train epoch 227/450, train_loss = 0.0000657845, time = 112.1159939766
+2023-10-25 18:23:59,822 - logs - INFO - valid epoch 227/450, valid_loss = 0.0000627514, time = 3.7042720318
+2023-10-25 18:25:51,957 - logs - INFO - train epoch 228/450, train_loss = 0.0000657241, time = 112.1340079308
+2023-10-25 18:25:55,668 - logs - INFO - valid epoch 228/450, valid_loss = 0.0000626679, time = 3.7091183662
+2023-10-25 18:27:47,772 - logs - INFO - train epoch 229/450, train_loss = 0.0000657645, time = 112.1034829617
+2023-10-25 18:27:51,469 - logs - INFO - valid epoch 229/450, valid_loss = 0.0000627169, time = 3.6956212521
+2023-10-25 18:29:43,549 - logs - INFO - train epoch 230/450, train_loss = 0.0000657828, time = 112.0784776211
+2023-10-25 18:29:47,256 - logs - INFO - valid epoch 230/450, valid_loss = 0.0000626959, time = 3.7055792809
+2023-10-25 18:29:47,265 - logs - INFO - Latest, model saved, epoch:230
+2023-10-25 18:31:39,355 - logs - INFO - train epoch 231/450, train_loss = 0.0000657784, time = 112.0893571377
+2023-10-25 18:31:43,055 - logs - INFO - valid epoch 231/450, valid_loss = 0.0000626683, time = 3.6980142593
+2023-10-25 18:33:35,190 - logs - INFO - train epoch 232/450, train_loss = 0.0000657658, time = 112.1341302395
+2023-10-25 18:33:38,888 - logs - INFO - valid epoch 232/450, valid_loss = 0.0000627153, time = 3.6965327263
+2023-10-25 18:35:30,957 - logs - INFO - train epoch 233/450, train_loss = 0.0000657601, time = 112.0684041977
+2023-10-25 18:35:34,660 - logs - INFO - valid epoch 233/450, valid_loss = 0.0000626676, time = 3.7016859055
+2023-10-25 18:37:26,761 - logs - INFO - train epoch 234/450, train_loss = 0.0000657530, time = 112.0998547077
+2023-10-25 18:37:30,478 - logs - INFO - valid epoch 234/450, valid_loss = 0.0000626189, time = 3.7152268887
+2023-10-25 18:37:30,487 - logs - INFO - Comparsion, model saved, epoch:234
+2023-10-25 18:39:22,593 - logs - INFO - train epoch 235/450, train_loss = 0.0000657075, time = 112.1053035259
+2023-10-25 18:39:26,292 - logs - INFO - valid epoch 235/450, valid_loss = 0.0000626488, time = 3.6970312595
+2023-10-25 18:39:26,301 - logs - INFO - Latest, model saved, epoch:235
+2023-10-25 18:41:18,394 - logs - INFO - train epoch 236/450, train_loss = 0.0000657339, time = 112.0924112797
+2023-10-25 18:41:22,132 - logs - INFO - valid epoch 236/450, valid_loss = 0.0000627684, time = 3.7361855507
+2023-10-25 18:43:14,236 - logs - INFO - train epoch 237/450, train_loss = 0.0000657080, time = 112.1025431156
+2023-10-25 18:43:17,939 - logs - INFO - valid epoch 237/450, valid_loss = 0.0000625985, time = 3.7022931576
+2023-10-25 18:43:17,948 - logs - INFO - Comparsion, model saved, epoch:237
+2023-10-25 18:45:10,107 - logs - INFO - train epoch 238/450, train_loss = 0.0000657172, time = 112.1579284668
+2023-10-25 18:45:13,807 - logs - INFO - valid epoch 238/450, valid_loss = 0.0000627658, time = 3.6983802319
+2023-10-25 18:47:05,907 - logs - INFO - train epoch 239/450, train_loss = 0.0000657289, time = 112.0991547108
+2023-10-25 18:47:09,638 - logs - INFO - valid epoch 239/450, valid_loss = 0.0000627214, time = 3.7299547195
+2023-10-25 18:49:01,745 - logs - INFO - train epoch 240/450, train_loss = 0.0000657231, time = 112.1052052975
+2023-10-25 18:49:05,440 - logs - INFO - valid epoch 240/450, valid_loss = 0.0000626701, time = 3.6936981678
+2023-10-25 18:49:05,449 - logs - INFO - Latest, model saved, epoch:240
+2023-10-25 18:50:57,543 - logs - INFO - train epoch 241/450, train_loss = 0.0000657125, time = 112.0931756496
+2023-10-25 18:51:01,258 - logs - INFO - valid epoch 241/450, valid_loss = 0.0000627235, time = 3.7136423588
+2023-10-25 18:52:53,418 - logs - INFO - train epoch 242/450, train_loss = 0.0000657100, time = 112.1593759060
+2023-10-25 18:52:57,114 - logs - INFO - valid epoch 242/450, valid_loss = 0.0000626272, time = 3.6946721077
+2023-10-25 18:54:49,247 - logs - INFO - train epoch 243/450, train_loss = 0.0000657068, time = 112.1311726570
+2023-10-25 18:54:52,964 - logs - INFO - valid epoch 243/450, valid_loss = 0.0000626729, time = 3.7157843113
+2023-10-25 18:56:45,084 - logs - INFO - train epoch 244/450, train_loss = 0.0000656993, time = 112.1195745468
+2023-10-25 18:56:48,789 - logs - INFO - valid epoch 244/450, valid_loss = 0.0000627754, time = 3.7036626339
+2023-10-25 18:58:40,953 - logs - INFO - train epoch 245/450, train_loss = 0.0000656858, time = 112.1623861790
+2023-10-25 18:58:44,679 - logs - INFO - valid epoch 245/450, valid_loss = 0.0000626659, time = 3.7253983021
+2023-10-25 18:58:44,689 - logs - INFO - Latest, model saved, epoch:245
+2023-10-25 19:00:36,802 - logs - INFO - train epoch 246/450, train_loss = 0.0000656937, time = 112.1119067669
+2023-10-25 19:00:40,511 - logs - INFO - valid epoch 246/450, valid_loss = 0.0000626624, time = 3.7077367306
+2023-10-25 19:02:32,640 - logs - INFO - train epoch 247/450, train_loss = 0.0000656945, time = 112.1283218861
+2023-10-25 19:02:36,340 - logs - INFO - valid epoch 247/450, valid_loss = 0.0000625908, time = 3.6985676289
+2023-10-25 19:02:36,350 - logs - INFO - Comparsion, model saved, epoch:247
+2023-10-25 19:04:28,540 - logs - INFO - train epoch 248/450, train_loss = 0.0000656986, time = 112.1891777515
+2023-10-25 19:04:32,246 - logs - INFO - valid epoch 248/450, valid_loss = 0.0000626076, time = 3.7052235603
+2023-10-25 19:06:24,387 - logs - INFO - train epoch 249/450, train_loss = 0.0000656945, time = 112.1394581795
+2023-10-25 19:06:28,088 - logs - INFO - valid epoch 249/450, valid_loss = 0.0000628128, time = 3.6994254589
+2023-10-25 19:08:20,192 - logs - INFO - train epoch 250/450, train_loss = 0.0000656838, time = 112.1032159328
+2023-10-25 19:08:23,906 - logs - INFO - valid epoch 250/450, valid_loss = 0.0000627130, time = 3.7125380039
+2023-10-25 19:08:23,915 - logs - INFO - Per 50, model saved, epoch:250
+2023-10-25 19:08:23,924 - logs - INFO - Latest, model saved, epoch:250
+2023-10-25 19:10:16,007 - logs - INFO - train epoch 251/450, train_loss = 0.0000657020, time = 112.0817425251
+2023-10-25 19:10:19,709 - logs - INFO - valid epoch 251/450, valid_loss = 0.0000626094, time = 3.7007572651
+2023-10-25 19:12:11,814 - logs - INFO - train epoch 252/450, train_loss = 0.0000656997, time = 112.1046378613
+2023-10-25 19:12:15,541 - logs - INFO - valid epoch 252/450, valid_loss = 0.0000625882, time = 3.7258634567
+2023-10-25 19:12:15,551 - logs - INFO - Comparsion, model saved, epoch:252
+2023-10-25 19:14:07,728 - logs - INFO - train epoch 253/450, train_loss = 0.0000656496, time = 112.1756441593
+2023-10-25 19:14:11,446 - logs - INFO - valid epoch 253/450, valid_loss = 0.0000625848, time = 3.7172009945
+2023-10-25 19:14:11,457 - logs - INFO - Comparsion, model saved, epoch:253
+2023-10-25 19:16:03,583 - logs - INFO - train epoch 254/450, train_loss = 0.0000656386, time = 112.1249885559
+2023-10-25 19:16:07,324 - logs - INFO - valid epoch 254/450, valid_loss = 0.0000626213, time = 3.7397820950
+2023-10-25 19:17:59,437 - logs - INFO - train epoch 255/450, train_loss = 0.0000656423, time = 112.1126148701
+2023-10-25 19:18:03,149 - logs - INFO - valid epoch 255/450, valid_loss = 0.0000625407, time = 3.7104649544
+2023-10-25 19:18:03,158 - logs - INFO - Comparsion, model saved, epoch:255
+2023-10-25 19:18:03,167 - logs - INFO - Latest, model saved, epoch:255
+2023-10-25 19:19:55,307 - logs - INFO - train epoch 256/450, train_loss = 0.0000656486, time = 112.1389586926
+2023-10-25 19:19:59,018 - logs - INFO - valid epoch 256/450, valid_loss = 0.0000625977, time = 3.7096931934
+2023-10-25 19:21:51,162 - logs - INFO - train epoch 257/450, train_loss = 0.0000656462, time = 112.1430478096
+2023-10-25 19:21:54,863 - logs - INFO - valid epoch 257/450, valid_loss = 0.0000626212, time = 3.6997418404
+2023-10-25 19:23:46,983 - logs - INFO - train epoch 258/450, train_loss = 0.0000656515, time = 112.1188108921
+2023-10-25 19:23:50,694 - logs - INFO - valid epoch 258/450, valid_loss = 0.0000626714, time = 3.7096498013
+2023-10-25 19:25:42,830 - logs - INFO - train epoch 259/450, train_loss = 0.0000656469, time = 112.1353397369
+2023-10-25 19:25:46,544 - logs - INFO - valid epoch 259/450, valid_loss = 0.0000625922, time = 3.7125697136
+2023-10-25 19:27:38,640 - logs - INFO - train epoch 260/450, train_loss = 0.0000656335, time = 112.0946142673
+2023-10-25 19:27:42,356 - logs - INFO - valid epoch 260/450, valid_loss = 0.0000625279, time = 3.7152638435
+2023-10-25 19:27:42,366 - logs - INFO - Comparsion, model saved, epoch:260
+2023-10-25 19:27:42,375 - logs - INFO - Latest, model saved, epoch:260
+2023-10-25 19:29:34,532 - logs - INFO - train epoch 261/450, train_loss = 0.0000656039, time = 112.1560254097
+2023-10-25 19:29:38,256 - logs - INFO - valid epoch 261/450, valid_loss = 0.0000625824, time = 3.7227556705
+2023-10-25 19:31:30,385 - logs - INFO - train epoch 262/450, train_loss = 0.0000656205, time = 112.1277897358
+2023-10-25 19:31:34,078 - logs - INFO - valid epoch 262/450, valid_loss = 0.0000625705, time = 3.6916267872
+2023-10-25 19:33:26,187 - logs - INFO - train epoch 263/450, train_loss = 0.0000656006, time = 112.1077642441
+2023-10-25 19:33:29,884 - logs - INFO - valid epoch 263/450, valid_loss = 0.0000625837, time = 3.6953082085
+2023-10-25 19:35:21,984 - logs - INFO - train epoch 264/450, train_loss = 0.0000656258, time = 112.0991041660
+2023-10-25 19:35:25,691 - logs - INFO - valid epoch 264/450, valid_loss = 0.0000625625, time = 3.7057688236
+2023-10-25 19:37:17,803 - logs - INFO - train epoch 265/450, train_loss = 0.0000656013, time = 112.1108152866
+2023-10-25 19:37:21,508 - logs - INFO - valid epoch 265/450, valid_loss = 0.0000625778, time = 3.7035365105
+2023-10-25 19:37:21,517 - logs - INFO - Latest, model saved, epoch:265
+2023-10-25 19:39:13,669 - logs - INFO - train epoch 266/450, train_loss = 0.0000656177, time = 112.1504690647
+2023-10-25 19:39:17,364 - logs - INFO - valid epoch 266/450, valid_loss = 0.0000626622, time = 3.6943778992
+2023-10-25 19:41:09,484 - logs - INFO - train epoch 267/450, train_loss = 0.0000656097, time = 112.1182727814
+2023-10-25 19:41:13,193 - logs - INFO - valid epoch 267/450, valid_loss = 0.0000625682, time = 3.7082664967
+2023-10-25 19:43:05,287 - logs - INFO - train epoch 268/450, train_loss = 0.0000655787, time = 112.0924451351
+2023-10-25 19:43:08,990 - logs - INFO - valid epoch 268/450, valid_loss = 0.0000625144, time = 3.7022197247
+2023-10-25 19:43:09,000 - logs - INFO - Comparsion, model saved, epoch:268
+2023-10-25 19:45:01,053 - logs - INFO - train epoch 269/450, train_loss = 0.0000655920, time = 112.0528118610
+2023-10-25 19:45:04,771 - logs - INFO - valid epoch 269/450, valid_loss = 0.0000625733, time = 3.7162139416
+2023-10-25 19:46:56,908 - logs - INFO - train epoch 270/450, train_loss = 0.0000655852, time = 112.1358864307
+2023-10-25 19:47:00,620 - logs - INFO - valid epoch 270/450, valid_loss = 0.0000625245, time = 3.7108197212
+2023-10-25 19:47:00,629 - logs - INFO - Latest, model saved, epoch:270
+2023-10-25 19:48:52,741 - logs - INFO - train epoch 271/450, train_loss = 0.0000656019, time = 112.1109409332
+2023-10-25 19:48:56,451 - logs - INFO - valid epoch 271/450, valid_loss = 0.0000625889, time = 3.7089707851
+2023-10-25 19:50:48,548 - logs - INFO - train epoch 272/450, train_loss = 0.0000655651, time = 112.0961756706
+2023-10-25 19:50:52,259 - logs - INFO - valid epoch 272/450, valid_loss = 0.0000625673, time = 3.7090070248
+2023-10-25 19:52:44,424 - logs - INFO - train epoch 273/450, train_loss = 0.0000655742, time = 112.1637296677
+2023-10-25 19:52:48,137 - logs - INFO - valid epoch 273/450, valid_loss = 0.0000626185, time = 3.7120058537
+2023-10-25 19:54:40,282 - logs - INFO - train epoch 274/450, train_loss = 0.0000655726, time = 112.1435496807
+2023-10-25 19:54:43,981 - logs - INFO - valid epoch 274/450, valid_loss = 0.0000625837, time = 3.6983349323
+2023-10-25 19:56:36,088 - logs - INFO - train epoch 275/450, train_loss = 0.0000655443, time = 112.1057617664
+2023-10-25 19:56:39,797 - logs - INFO - valid epoch 275/450, valid_loss = 0.0000625248, time = 3.7081494331
+2023-10-25 19:56:39,807 - logs - INFO - Latest, model saved, epoch:275
+2023-10-25 19:58:31,948 - logs - INFO - train epoch 276/450, train_loss = 0.0000655970, time = 112.1399149895
+2023-10-25 19:58:35,656 - logs - INFO - valid epoch 276/450, valid_loss = 0.0000624158, time = 3.7070646286
+2023-10-25 19:58:35,666 - logs - INFO - Comparsion, model saved, epoch:276
+2023-10-25 20:00:27,799 - logs - INFO - train epoch 277/450, train_loss = 0.0000655717, time = 112.1319231987
+2023-10-25 20:00:31,510 - logs - INFO - valid epoch 277/450, valid_loss = 0.0000625320, time = 3.7096245289
+2023-10-25 20:02:23,559 - logs - INFO - train epoch 278/450, train_loss = 0.0000655917, time = 112.0477199554
+2023-10-25 20:02:27,273 - logs - INFO - valid epoch 278/450, valid_loss = 0.0000625425, time = 3.7128624916
+2023-10-25 20:04:19,389 - logs - INFO - train epoch 279/450, train_loss = 0.0000655352, time = 112.1147146225
+2023-10-25 20:04:23,097 - logs - INFO - valid epoch 279/450, valid_loss = 0.0000625466, time = 3.7073707581
+2023-10-25 20:04:23,099 - logs - INFO - Change optimizer Adam to SGD, lr from 0.0001 to 0.0001
+2023-10-25 20:06:15,303 - logs - INFO - train epoch 280/450, train_loss = 0.0000655595, time = 112.2042574883
+2023-10-25 20:06:19,027 - logs - INFO - valid epoch 280/450, valid_loss = 0.0000625553, time = 3.7224552631
+2023-10-25 20:06:19,037 - logs - INFO - Latest, model saved, epoch:280
+2023-10-25 20:08:11,161 - logs - INFO - train epoch 281/450, train_loss = 0.0000655434, time = 112.1230337620
+2023-10-25 20:08:14,851 - logs - INFO - valid epoch 281/450, valid_loss = 0.0000626039, time = 3.6889398098
+2023-10-25 20:10:06,932 - logs - INFO - train epoch 282/450, train_loss = 0.0000655581, time = 112.0799803734
+2023-10-25 20:10:10,637 - logs - INFO - valid epoch 282/450, valid_loss = 0.0000625944, time = 3.7030026913
+2023-10-25 20:12:02,804 - logs - INFO - train epoch 283/450, train_loss = 0.0000655563, time = 112.1662976742
+2023-10-25 20:12:06,527 - logs - INFO - valid epoch 283/450, valid_loss = 0.0000625769, time = 3.7218544483
+2023-10-25 20:13:58,658 - logs - INFO - train epoch 284/450, train_loss = 0.0000655534, time = 112.1295940876
+2023-10-25 20:14:02,368 - logs - INFO - valid epoch 284/450, valid_loss = 0.0000624903, time = 3.7091414928
+2023-10-25 20:15:54,504 - logs - INFO - train epoch 285/450, train_loss = 0.0000655238, time = 112.1346490383
+2023-10-25 20:15:58,201 - logs - INFO - valid epoch 285/450, valid_loss = 0.0000624336, time = 3.6952235699
+2023-10-25 20:15:58,210 - logs - INFO - Latest, model saved, epoch:285
+2023-10-25 20:17:50,383 - logs - INFO - train epoch 286/450, train_loss = 0.0000655610, time = 112.1724429131
+2023-10-25 20:17:54,101 - logs - INFO - valid epoch 286/450, valid_loss = 0.0000625170, time = 3.7161459923
+2023-10-25 20:19:46,233 - logs - INFO - train epoch 287/450, train_loss = 0.0000655644, time = 112.1310479641
+2023-10-25 20:19:49,936 - logs - INFO - valid epoch 287/450, valid_loss = 0.0000624853, time = 3.7016289234
+2023-10-25 20:21:42,069 - logs - INFO - train epoch 288/450, train_loss = 0.0000655331, time = 112.1316618919
+2023-10-25 20:21:45,777 - logs - INFO - valid epoch 288/450, valid_loss = 0.0000624811, time = 3.7069959641
+2023-10-25 20:23:37,956 - logs - INFO - train epoch 289/450, train_loss = 0.0000655786, time = 112.1777422428
+2023-10-25 20:23:41,660 - logs - INFO - valid epoch 289/450, valid_loss = 0.0000624543, time = 3.7027747631
+2023-10-25 20:25:33,780 - logs - INFO - train epoch 290/450, train_loss = 0.0000655320, time = 112.1192293167
+2023-10-25 20:25:37,473 - logs - INFO - valid epoch 290/450, valid_loss = 0.0000625319, time = 3.6914782524
+2023-10-25 20:25:37,482 - logs - INFO - Latest, model saved, epoch:290
+2023-10-25 20:27:29,652 - logs - INFO - train epoch 291/450, train_loss = 0.0000655061, time = 112.1690998077
+2023-10-25 20:27:33,358 - logs - INFO - valid epoch 291/450, valid_loss = 0.0000625274, time = 3.7042827606
+2023-10-25 20:29:25,486 - logs - INFO - train epoch 292/450, train_loss = 0.0000655694, time = 112.1271009445
+2023-10-25 20:29:29,185 - logs - INFO - valid epoch 292/450, valid_loss = 0.0000625499, time = 3.6975817680
+2023-10-25 20:31:21,305 - logs - INFO - train epoch 293/450, train_loss = 0.0000655587, time = 112.1185069084
+2023-10-25 20:31:25,021 - logs - INFO - valid epoch 293/450, valid_loss = 0.0000625097, time = 3.7143259048
+2023-10-25 20:33:17,117 - logs - INFO - train epoch 294/450, train_loss = 0.0000655521, time = 112.0957539082
+2023-10-25 20:33:20,845 - logs - INFO - valid epoch 294/450, valid_loss = 0.0000625535, time = 3.7266359329
+2023-10-25 20:35:12,993 - logs - INFO - train epoch 295/450, train_loss = 0.0000655547, time = 112.1462051868
+2023-10-25 20:35:16,715 - logs - INFO - valid epoch 295/450, valid_loss = 0.0000624645, time = 3.7210762501
+2023-10-25 20:35:16,725 - logs - INFO - Latest, model saved, epoch:295
+2023-10-25 20:37:08,825 - logs - INFO - train epoch 296/450, train_loss = 0.0000655488, time = 112.0989830494
+2023-10-25 20:37:12,528 - logs - INFO - valid epoch 296/450, valid_loss = 0.0000625645, time = 3.7018024921
+2023-10-25 20:39:04,746 - logs - INFO - train epoch 297/450, train_loss = 0.0000655476, time = 112.2163252831
+2023-10-25 20:39:08,457 - logs - INFO - valid epoch 297/450, valid_loss = 0.0000624735, time = 3.7097511292
+2023-10-25 20:41:00,506 - logs - INFO - train epoch 298/450, train_loss = 0.0000655042, time = 112.0480899811
+2023-10-25 20:41:04,205 - logs - INFO - valid epoch 298/450, valid_loss = 0.0000624816, time = 3.6981275082
+2023-10-25 20:42:56,330 - logs - INFO - train epoch 299/450, train_loss = 0.0000655627, time = 112.1237401962
+2023-10-25 20:43:00,033 - logs - INFO - valid epoch 299/450, valid_loss = 0.0000625476, time = 3.7018487453
+2023-10-25 20:44:52,186 - logs - INFO - train epoch 300/450, train_loss = 0.0000655360, time = 112.1513693333
+2023-10-25 20:44:55,880 - logs - INFO - valid epoch 300/450, valid_loss = 0.0000624940, time = 3.6926879883
+2023-10-25 20:44:55,889 - logs - INFO - Per 50, model saved, epoch:300
+2023-10-25 20:44:55,898 - logs - INFO - Latest, model saved, epoch:300
+2023-10-25 20:46:47,984 - logs - INFO - train epoch 301/450, train_loss = 0.0000655938, time = 112.0847947598
+2023-10-25 20:46:51,690 - logs - INFO - valid epoch 301/450, valid_loss = 0.0000625560, time = 3.7043116093
+2023-10-25 20:48:43,831 - logs - INFO - train epoch 302/450, train_loss = 0.0000655530, time = 112.1404504776
+2023-10-25 20:48:47,546 - logs - INFO - valid epoch 302/450, valid_loss = 0.0000625325, time = 3.7130069733
+2023-10-25 20:50:39,688 - logs - INFO - train epoch 303/450, train_loss = 0.0000655457, time = 112.1415586472
+2023-10-25 20:50:43,396 - logs - INFO - valid epoch 303/450, valid_loss = 0.0000624914, time = 3.7065715790
+2023-10-25 20:52:35,553 - logs - INFO - train epoch 304/450, train_loss = 0.0000655562, time = 112.1555249691
+2023-10-25 20:52:39,285 - logs - INFO - valid epoch 304/450, valid_loss = 0.0000625712, time = 3.7312986851
+2023-10-25 20:54:31,468 - logs - INFO - train epoch 305/450, train_loss = 0.0000655764, time = 112.1814312935
+2023-10-25 20:54:35,174 - logs - INFO - valid epoch 305/450, valid_loss = 0.0000624509, time = 3.7048518658
+2023-10-25 20:54:35,184 - logs - INFO - Latest, model saved, epoch:305
+2023-10-25 20:56:27,306 - logs - INFO - train epoch 306/450, train_loss = 0.0000655554, time = 112.1206221581
+2023-10-25 20:56:31,015 - logs - INFO - valid epoch 306/450, valid_loss = 0.0000624509, time = 3.7082452774
+2023-10-25 20:58:23,175 - logs - INFO - train epoch 307/450, train_loss = 0.0000655788, time = 112.1588013172
+2023-10-25 20:58:26,890 - logs - INFO - valid epoch 307/450, valid_loss = 0.0000624765, time = 3.7138159275
+2023-10-25 21:00:19,087 - logs - INFO - train epoch 308/450, train_loss = 0.0000655425, time = 112.1949672699
+2023-10-25 21:00:22,792 - logs - INFO - valid epoch 308/450, valid_loss = 0.0000624911, time = 3.7037999630
+2023-10-25 21:02:14,983 - logs - INFO - train epoch 309/450, train_loss = 0.0000655804, time = 112.1900725365
+2023-10-25 21:02:18,700 - logs - INFO - valid epoch 309/450, valid_loss = 0.0000625153, time = 3.7155773640
+2023-10-25 21:04:10,878 - logs - INFO - train epoch 310/450, train_loss = 0.0000655412, time = 112.1767575741
+2023-10-25 21:04:14,593 - logs - INFO - valid epoch 310/450, valid_loss = 0.0000624854, time = 3.7137696743
+2023-10-25 21:04:14,602 - logs - INFO - Latest, model saved, epoch:310
+2023-10-25 21:06:06,782 - logs - INFO - train epoch 311/450, train_loss = 0.0000655680, time = 112.1785454750
+2023-10-25 21:06:10,499 - logs - INFO - valid epoch 311/450, valid_loss = 0.0000625841, time = 3.7162051201
+2023-10-25 21:08:02,684 - logs - INFO - train epoch 312/450, train_loss = 0.0000655675, time = 112.1831793785
+2023-10-25 21:08:06,404 - logs - INFO - valid epoch 312/450, valid_loss = 0.0000625178, time = 3.7185294628
+2023-10-25 21:09:58,567 - logs - INFO - train epoch 313/450, train_loss = 0.0000655366, time = 112.1626882553
+2023-10-25 21:10:02,273 - logs - INFO - valid epoch 313/450, valid_loss = 0.0000624807, time = 3.7042558193
+2023-10-25 21:11:54,397 - logs - INFO - train epoch 314/450, train_loss = 0.0000655543, time = 112.1230823994
+2023-10-25 21:11:58,098 - logs - INFO - valid epoch 314/450, valid_loss = 0.0000625020, time = 3.6997563839
+2023-10-25 21:13:50,325 - logs - INFO - train epoch 315/450, train_loss = 0.0000655492, time = 112.2252011299
+2023-10-25 21:13:54,026 - logs - INFO - valid epoch 315/450, valid_loss = 0.0000624772, time = 3.7002997398
+2023-10-25 21:13:54,037 - logs - INFO - Latest, model saved, epoch:315
+2023-10-25 21:15:46,213 - logs - INFO - train epoch 316/450, train_loss = 0.0000655666, time = 112.1757688522
+2023-10-25 21:15:49,905 - logs - INFO - valid epoch 316/450, valid_loss = 0.0000625655, time = 3.6907038689
+2023-10-25 21:17:41,993 - logs - INFO - train epoch 317/450, train_loss = 0.0000655687, time = 112.0862395763
+2023-10-25 21:17:45,684 - logs - INFO - valid epoch 317/450, valid_loss = 0.0000625177, time = 3.6899964809
+2023-10-25 21:19:37,866 - logs - INFO - train epoch 318/450, train_loss = 0.0000655422, time = 112.1812586784
+2023-10-25 21:19:41,572 - logs - INFO - valid epoch 318/450, valid_loss = 0.0000625398, time = 3.7044606209
+2023-10-25 21:21:33,759 - logs - INFO - train epoch 319/450, train_loss = 0.0000655506, time = 112.1854021549
+2023-10-25 21:21:37,473 - logs - INFO - valid epoch 319/450, valid_loss = 0.0000625285, time = 3.7127730846
+2023-10-25 21:23:29,651 - logs - INFO - train epoch 320/450, train_loss = 0.0000655155, time = 112.1769735813
+2023-10-25 21:23:33,364 - logs - INFO - valid epoch 320/450, valid_loss = 0.0000624557, time = 3.7114808559
+2023-10-25 21:23:33,373 - logs - INFO - Latest, model saved, epoch:320
+2023-10-25 21:25:25,562 - logs - INFO - train epoch 321/450, train_loss = 0.0000655356, time = 112.1874451637
+2023-10-25 21:25:29,275 - logs - INFO - valid epoch 321/450, valid_loss = 0.0000625291, time = 3.7118961811
+2023-10-25 21:27:21,504 - logs - INFO - train epoch 322/450, train_loss = 0.0000655701, time = 112.2280547619
+2023-10-25 21:27:25,213 - logs - INFO - valid epoch 322/450, valid_loss = 0.0000625243, time = 3.7071144581
+2023-10-25 21:29:17,344 - logs - INFO - train epoch 323/450, train_loss = 0.0000655672, time = 112.1304016113
+2023-10-25 21:29:21,049 - logs - INFO - valid epoch 323/450, valid_loss = 0.0000625166, time = 3.7032098770
+2023-10-25 21:31:13,084 - logs - INFO - train epoch 324/450, train_loss = 0.0000655330, time = 112.0339837074
+2023-10-25 21:31:16,776 - logs - INFO - valid epoch 324/450, valid_loss = 0.0000625134, time = 3.6913819313
+2023-10-25 21:33:08,904 - logs - INFO - train epoch 325/450, train_loss = 0.0000655526, time = 112.1264264584
+2023-10-25 21:33:12,618 - logs - INFO - valid epoch 325/450, valid_loss = 0.0000625161, time = 3.7129409313
+2023-10-25 21:33:12,628 - logs - INFO - Latest, model saved, epoch:325
+2023-10-25 21:35:04,770 - logs - INFO - train epoch 326/450, train_loss = 0.0000655564, time = 112.1407411098
+2023-10-25 21:35:08,469 - logs - INFO - valid epoch 326/450, valid_loss = 0.0000625137, time = 3.6975712776
+2023-10-25 21:37:00,582 - logs - INFO - train epoch 327/450, train_loss = 0.0000655693, time = 112.1120219231
+2023-10-25 21:37:04,279 - logs - INFO - valid epoch 327/450, valid_loss = 0.0000625124, time = 3.6964902878
+2023-10-25 21:38:56,406 - logs - INFO - train epoch 328/450, train_loss = 0.0000655432, time = 112.1253991127
+2023-10-25 21:39:00,108 - logs - INFO - valid epoch 328/450, valid_loss = 0.0000625104, time = 3.7003908157
+2023-10-25 21:40:52,243 - logs - INFO - train epoch 329/450, train_loss = 0.0000655775, time = 112.1344990730
+2023-10-25 21:40:55,973 - logs - INFO - valid epoch 329/450, valid_loss = 0.0000624862, time = 3.7280664444
+2023-10-25 21:42:48,129 - logs - INFO - train epoch 330/450, train_loss = 0.0000655813, time = 112.1553390026
+2023-10-25 21:42:51,830 - logs - INFO - valid epoch 330/450, valid_loss = 0.0000624884, time = 3.6994588375
+2023-10-25 21:42:51,840 - logs - INFO - Latest, model saved, epoch:330
+2023-10-25 21:44:44,001 - logs - INFO - train epoch 331/450, train_loss = 0.0000655109, time = 112.1605389118
+2023-10-25 21:44:47,701 - logs - INFO - valid epoch 331/450, valid_loss = 0.0000624602, time = 3.6988346577
+2023-10-25 21:46:39,787 - logs - INFO - train epoch 332/450, train_loss = 0.0000655638, time = 112.0843336582
+2023-10-25 21:46:43,498 - logs - INFO - valid epoch 332/450, valid_loss = 0.0000624644, time = 3.7098488808
+2023-10-25 21:48:35,650 - logs - INFO - train epoch 333/450, train_loss = 0.0000655358, time = 112.1507964134
+2023-10-25 21:48:39,343 - logs - INFO - valid epoch 333/450, valid_loss = 0.0000625523, time = 3.6921994686
+2023-10-25 21:50:31,488 - logs - INFO - train epoch 334/450, train_loss = 0.0000655677, time = 112.1436164379
+2023-10-25 21:50:35,194 - logs - INFO - valid epoch 334/450, valid_loss = 0.0000624290, time = 3.7046141624
+2023-10-25 21:52:27,325 - logs - INFO - train epoch 335/450, train_loss = 0.0000655855, time = 112.1300802231
+2023-10-25 21:52:31,024 - logs - INFO - valid epoch 335/450, valid_loss = 0.0000625023, time = 3.6970076561
+2023-10-25 21:52:31,033 - logs - INFO - Latest, model saved, epoch:335
+2023-10-25 21:54:23,197 - logs - INFO - train epoch 336/450, train_loss = 0.0000655748, time = 112.1621322632
+2023-10-25 21:54:26,908 - logs - INFO - valid epoch 336/450, valid_loss = 0.0000625751, time = 3.7099020481
+2023-10-25 21:56:19,080 - logs - INFO - train epoch 337/450, train_loss = 0.0000655615, time = 112.1714177132
+2023-10-25 21:56:22,795 - logs - INFO - valid epoch 337/450, valid_loss = 0.0000625133, time = 3.7135202885
+2023-10-25 21:58:15,556 - logs - INFO - train epoch 338/450, train_loss = 0.0000655748, time = 112.7602140903
+2023-10-25 21:58:19,296 - logs - INFO - valid epoch 338/450, valid_loss = 0.0000624801, time = 3.7383134365
+2023-10-25 22:00:18,181 - logs - INFO - train epoch 339/450, train_loss = 0.0000655072, time = 118.8837308884
+2023-10-25 22:00:22,246 - logs - INFO - valid epoch 339/450, valid_loss = 0.0000625433, time = 4.0622537136
+2023-10-25 22:02:18,870 - logs - INFO - train epoch 340/450, train_loss = 0.0000655942, time = 116.6217916012
+2023-10-25 22:02:22,871 - logs - INFO - valid epoch 340/450, valid_loss = 0.0000624847, time = 3.9988834858
+2023-10-25 22:02:22,893 - logs - INFO - Latest, model saved, epoch:340
+2023-10-25 22:04:21,075 - logs - INFO - train epoch 341/450, train_loss = 0.0000655611, time = 118.1804661751
+2023-10-25 22:04:25,252 - logs - INFO - valid epoch 341/450, valid_loss = 0.0000625844, time = 4.1754024029
+2023-10-25 22:06:23,663 - logs - INFO - train epoch 342/450, train_loss = 0.0000655809, time = 118.4080810547
+2023-10-25 22:06:27,685 - logs - INFO - valid epoch 342/450, valid_loss = 0.0000624487, time = 4.0197503567
+2023-10-25 22:08:25,247 - logs - INFO - train epoch 343/450, train_loss = 0.0000655836, time = 117.5602674484
+2023-10-25 22:08:29,265 - logs - INFO - valid epoch 343/450, valid_loss = 0.0000624975, time = 4.0155544281
+2023-10-25 22:10:28,667 - logs - INFO - train epoch 344/450, train_loss = 0.0000655387, time = 119.3994958401
+2023-10-25 22:10:32,797 - logs - INFO - valid epoch 344/450, valid_loss = 0.0000624808, time = 4.1278672218
+2023-10-25 22:12:32,061 - logs - INFO - train epoch 345/450, train_loss = 0.0000655880, time = 119.2618188858
+2023-10-25 22:12:36,151 - logs - INFO - valid epoch 345/450, valid_loss = 0.0000624729, time = 4.0883758068
+2023-10-25 22:12:36,174 - logs - INFO - Latest, model saved, epoch:345
+2023-10-25 22:14:33,305 - logs - INFO - train epoch 346/450, train_loss = 0.0000655342, time = 117.1287393570
+2023-10-25 22:14:37,007 - logs - INFO - valid epoch 346/450, valid_loss = 0.0000624579, time = 3.7005529404
+2023-10-25 22:16:33,399 - logs - INFO - train epoch 347/450, train_loss = 0.0000655281, time = 116.3904974461
+2023-10-25 22:16:37,598 - logs - INFO - valid epoch 347/450, valid_loss = 0.0000624959, time = 4.1972966194
+2023-10-25 22:18:35,831 - logs - INFO - train epoch 348/450, train_loss = 0.0000655869, time = 118.2307329178
+2023-10-25 22:18:39,893 - logs - INFO - valid epoch 348/450, valid_loss = 0.0000625176, time = 4.0599093437
+2023-10-25 22:20:38,253 - logs - INFO - train epoch 349/450, train_loss = 0.0000655498, time = 118.3574059010
+2023-10-25 22:20:42,523 - logs - INFO - valid epoch 349/450, valid_loss = 0.0000625393, time = 4.2678313255
+2023-10-25 22:22:40,845 - logs - INFO - train epoch 350/450, train_loss = 0.0000655566, time = 118.3205893040
+2023-10-25 22:22:44,892 - logs - INFO - valid epoch 350/450, valid_loss = 0.0000624490, time = 4.0440852642
+2023-10-25 22:22:44,921 - logs - INFO - Per 50, model saved, epoch:350
+2023-10-25 22:22:44,954 - logs - INFO - Latest, model saved, epoch:350
+2023-10-25 22:24:43,652 - logs - INFO - train epoch 351/450, train_loss = 0.0000655682, time = 118.6960840225
+2023-10-25 22:24:47,739 - logs - INFO - valid epoch 351/450, valid_loss = 0.0000626875, time = 4.0844614506
+2023-10-25 22:26:46,227 - logs - INFO - train epoch 352/450, train_loss = 0.0000655869, time = 118.4865083694
+2023-10-25 22:26:50,323 - logs - INFO - valid epoch 352/450, valid_loss = 0.0000624968, time = 4.0937588215
+2023-10-25 22:28:48,629 - logs - INFO - train epoch 353/450, train_loss = 0.0000655454, time = 118.3034062386
+2023-10-25 22:28:52,674 - logs - INFO - valid epoch 353/450, valid_loss = 0.0000624710, time = 4.0428688526
+2023-10-25 22:30:51,915 - logs - INFO - train epoch 354/450, train_loss = 0.0000655555, time = 119.2374682426
+2023-10-25 22:30:56,099 - logs - INFO - valid epoch 354/450, valid_loss = 0.0000625049, time = 4.1823341846
+2023-10-25 22:32:54,961 - logs - INFO - train epoch 355/450, train_loss = 0.0000655640, time = 118.8606765270
+2023-10-25 22:32:59,091 - logs - INFO - valid epoch 355/450, valid_loss = 0.0000625840, time = 4.1271920204
+2023-10-25 22:32:59,121 - logs - INFO - Latest, model saved, epoch:355
+2023-10-25 22:34:58,452 - logs - INFO - train epoch 356/450, train_loss = 0.0000655962, time = 119.3289246559
+2023-10-25 22:35:02,498 - logs - INFO - valid epoch 356/450, valid_loss = 0.0000624279, time = 4.0432102680
+2023-10-25 22:37:01,231 - logs - INFO - train epoch 357/450, train_loss = 0.0000655673, time = 118.7306513786
+2023-10-25 22:37:05,396 - logs - INFO - valid epoch 357/450, valid_loss = 0.0000624592, time = 4.1635687351
+2023-10-25 22:39:04,256 - logs - INFO - train epoch 358/450, train_loss = 0.0000655639, time = 118.8572468758
+2023-10-25 22:39:08,355 - logs - INFO - valid epoch 358/450, valid_loss = 0.0000624870, time = 4.0968158245
+2023-10-25 22:41:06,808 - logs - INFO - train epoch 359/450, train_loss = 0.0000655515, time = 118.4505653381
+2023-10-25 22:41:11,123 - logs - INFO - valid epoch 359/450, valid_loss = 0.0000625598, time = 4.3129794598
+2023-10-25 22:43:09,523 - logs - INFO - train epoch 360/450, train_loss = 0.0000655477, time = 118.3977451324
+2023-10-25 22:43:13,856 - logs - INFO - valid epoch 360/450, valid_loss = 0.0000625363, time = 4.3307054043
+2023-10-25 22:43:13,873 - logs - INFO - Latest, model saved, epoch:360
+2023-10-25 22:45:12,892 - logs - INFO - train epoch 361/450, train_loss = 0.0000655569, time = 119.0167126656
+2023-10-25 22:45:17,135 - logs - INFO - valid epoch 361/450, valid_loss = 0.0000624690, time = 4.2412052155
+2023-10-25 22:47:15,928 - logs - INFO - train epoch 362/450, train_loss = 0.0000655758, time = 118.7913870811
+2023-10-25 22:47:20,035 - logs - INFO - valid epoch 362/450, valid_loss = 0.0000624968, time = 4.1049182415
+2023-10-25 22:49:17,994 - logs - INFO - train epoch 363/450, train_loss = 0.0000655650, time = 117.9566767216
+2023-10-25 22:49:22,117 - logs - INFO - valid epoch 363/450, valid_loss = 0.0000625033, time = 4.1205718517
+2023-10-25 22:51:20,815 - logs - INFO - train epoch 364/450, train_loss = 0.0000655273, time = 118.6959407330
+2023-10-25 22:51:24,939 - logs - INFO - valid epoch 364/450, valid_loss = 0.0000625489, time = 4.1211705208
+2023-10-25 22:53:24,118 - logs - INFO - train epoch 365/450, train_loss = 0.0000655700, time = 119.1768882275
+2023-10-25 22:53:28,209 - logs - INFO - valid epoch 365/450, valid_loss = 0.0000624801, time = 4.0885972977
+2023-10-25 22:53:28,231 - logs - INFO - Latest, model saved, epoch:365
+2023-10-25 22:55:27,724 - logs - INFO - train epoch 366/450, train_loss = 0.0000655357, time = 119.4917459488
+2023-10-25 22:55:31,903 - logs - INFO - valid epoch 366/450, valid_loss = 0.0000625116, time = 4.1765537262
+2023-10-25 22:57:31,023 - logs - INFO - train epoch 367/450, train_loss = 0.0000655592, time = 119.1184437275
+2023-10-25 22:57:35,290 - logs - INFO - valid epoch 367/450, valid_loss = 0.0000624926, time = 4.2649321556
+2023-10-25 22:59:33,947 - logs - INFO - train epoch 368/450, train_loss = 0.0000655733, time = 118.6550128460
+2023-10-25 22:59:38,125 - logs - INFO - valid epoch 368/450, valid_loss = 0.0000624225, time = 4.1764357090
+2023-10-25 23:01:36,575 - logs - INFO - train epoch 369/450, train_loss = 0.0000655746, time = 118.4472990036
+2023-10-25 23:01:40,754 - logs - INFO - valid epoch 369/450, valid_loss = 0.0000625416, time = 4.1768002510
+2023-10-25 23:03:39,660 - logs - INFO - train epoch 370/450, train_loss = 0.0000655747, time = 118.9048633575
+2023-10-25 23:03:43,988 - logs - INFO - valid epoch 370/450, valid_loss = 0.0000625686, time = 4.3254902363
+2023-10-25 23:03:44,007 - logs - INFO - Latest, model saved, epoch:370
+2023-10-25 23:05:43,153 - logs - INFO - train epoch 371/450, train_loss = 0.0000655536, time = 119.1433265209
+2023-10-25 23:05:47,183 - logs - INFO - valid epoch 371/450, valid_loss = 0.0000625138, time = 4.0290000439
+2023-10-25 23:07:46,003 - logs - INFO - train epoch 372/450, train_loss = 0.0000655401, time = 118.8171894550
+2023-10-25 23:07:50,323 - logs - INFO - valid epoch 372/450, valid_loss = 0.0000625897, time = 4.3173210621
+2023-10-25 23:09:49,069 - logs - INFO - train epoch 373/450, train_loss = 0.0000655256, time = 118.7442746162
+2023-10-25 23:09:53,292 - logs - INFO - valid epoch 373/450, valid_loss = 0.0000625032, time = 4.2212388515
+2023-10-25 23:11:52,220 - logs - INFO - train epoch 374/450, train_loss = 0.0000655523, time = 118.9260523319
+2023-10-25 23:11:56,364 - logs - INFO - valid epoch 374/450, valid_loss = 0.0000624700, time = 4.1415870190
+2023-10-25 23:13:54,747 - logs - INFO - train epoch 375/450, train_loss = 0.0000655331, time = 118.3825387955
+2023-10-25 23:13:58,999 - logs - INFO - valid epoch 375/450, valid_loss = 0.0000625149, time = 4.2491021156
+2023-10-25 23:13:59,016 - logs - INFO - Latest, model saved, epoch:375
+2023-10-25 23:15:57,862 - logs - INFO - train epoch 376/450, train_loss = 0.0000655404, time = 118.8443908691
+2023-10-25 23:16:01,927 - logs - INFO - valid epoch 376/450, valid_loss = 0.0000624876, time = 4.0624444485
+2023-10-25 23:18:00,826 - logs - INFO - train epoch 377/450, train_loss = 0.0000655493, time = 118.8961317539
+2023-10-25 23:18:05,007 - logs - INFO - valid epoch 377/450, valid_loss = 0.0000625002, time = 4.1784453392
+2023-10-25 23:20:03,349 - logs - INFO - train epoch 378/450, train_loss = 0.0000655619, time = 118.3410861492
+2023-10-25 23:20:07,421 - logs - INFO - valid epoch 378/450, valid_loss = 0.0000625251, time = 4.0690345764
+2023-10-25 23:22:06,850 - logs - INFO - train epoch 379/450, train_loss = 0.0000655967, time = 119.4266157150
+2023-10-25 23:22:11,100 - logs - INFO - valid epoch 379/450, valid_loss = 0.0000624285, time = 4.2477097511
+2023-10-25 23:24:10,119 - logs - INFO - train epoch 380/450, train_loss = 0.0000655358, time = 119.0169270039
+2023-10-25 23:24:14,311 - logs - INFO - valid epoch 380/450, valid_loss = 0.0000624687, time = 4.1897103786
+2023-10-25 23:24:14,328 - logs - INFO - Latest, model saved, epoch:380
+2023-10-25 23:26:12,493 - logs - INFO - train epoch 381/450, train_loss = 0.0000655362, time = 118.1636955738
+2023-10-25 23:26:16,582 - logs - INFO - valid epoch 381/450, valid_loss = 0.0000625214, time = 4.0870544910
+2023-10-25 23:28:15,317 - logs - INFO - train epoch 382/450, train_loss = 0.0000655166, time = 118.7326555252
+2023-10-25 23:28:19,433 - logs - INFO - valid epoch 382/450, valid_loss = 0.0000625125, time = 4.1129224300
+2023-10-25 23:30:18,568 - logs - INFO - train epoch 383/450, train_loss = 0.0000655539, time = 119.1336874962
+2023-10-25 23:30:22,656 - logs - INFO - valid epoch 383/450, valid_loss = 0.0000624910, time = 4.0852861404
+2023-10-25 23:32:21,685 - logs - INFO - train epoch 384/450, train_loss = 0.0000655521, time = 119.0276176929
+2023-10-25 23:32:26,011 - logs - INFO - valid epoch 384/450, valid_loss = 0.0000625607, time = 4.3235232830
+2023-10-25 23:34:24,379 - logs - INFO - train epoch 385/450, train_loss = 0.0000655385, time = 118.3667621613
+2023-10-25 23:34:28,420 - logs - INFO - valid epoch 385/450, valid_loss = 0.0000625262, time = 4.0382487774
+2023-10-25 23:34:28,440 - logs - INFO - Latest, model saved, epoch:385
+2023-10-25 23:36:26,199 - logs - INFO - train epoch 386/450, train_loss = 0.0000655545, time = 117.7567889690
+2023-10-25 23:36:30,249 - logs - INFO - valid epoch 386/450, valid_loss = 0.0000625336, time = 4.0478157997
+2023-10-25 23:38:28,906 - logs - INFO - train epoch 387/450, train_loss = 0.0000655622, time = 118.6551063061
+2023-10-25 23:38:33,072 - logs - INFO - valid epoch 387/450, valid_loss = 0.0000625342, time = 4.1631705761
+2023-10-25 23:40:31,708 - logs - INFO - train epoch 388/450, train_loss = 0.0000655665, time = 118.6349551678
+2023-10-25 23:40:35,705 - logs - INFO - valid epoch 388/450, valid_loss = 0.0000625587, time = 3.9945631027
+2023-10-25 23:42:34,783 - logs - INFO - train epoch 389/450, train_loss = 0.0000655826, time = 119.0766506195
+2023-10-25 23:42:39,172 - logs - INFO - valid epoch 389/450, valid_loss = 0.0000624512, time = 4.3859033585
+2023-10-25 23:44:37,778 - logs - INFO - train epoch 390/450, train_loss = 0.0000655725, time = 118.6043360233
+2023-10-25 23:44:41,887 - logs - INFO - valid epoch 390/450, valid_loss = 0.0000625334, time = 4.1062994003
+2023-10-25 23:44:41,905 - logs - INFO - Latest, model saved, epoch:390
+2023-10-25 23:46:40,011 - logs - INFO - train epoch 391/450, train_loss = 0.0000655526, time = 118.1045291424
+2023-10-25 23:46:44,102 - logs - INFO - valid epoch 391/450, valid_loss = 0.0000625000, time = 4.0887765884
+2023-10-25 23:48:43,408 - logs - INFO - train epoch 392/450, train_loss = 0.0000655491, time = 119.3046469688
+2023-10-25 23:48:47,592 - logs - INFO - valid epoch 392/450, valid_loss = 0.0000624568, time = 4.1817092896
+2023-10-25 23:50:46,398 - logs - INFO - train epoch 393/450, train_loss = 0.0000655698, time = 118.8044369221
+2023-10-25 23:50:50,530 - logs - INFO - valid epoch 393/450, valid_loss = 0.0000625464, time = 4.1297202110
+2023-10-25 23:52:48,765 - logs - INFO - train epoch 394/450, train_loss = 0.0000655592, time = 118.2327895164
+2023-10-25 23:52:52,817 - logs - INFO - valid epoch 394/450, valid_loss = 0.0000625195, time = 4.0493984222
+2023-10-25 23:54:51,083 - logs - INFO - train epoch 395/450, train_loss = 0.0000655805, time = 118.2646241188
+2023-10-25 23:54:55,212 - logs - INFO - valid epoch 395/450, valid_loss = 0.0000627596, time = 4.1271007061
+2023-10-25 23:54:55,230 - logs - INFO - Latest, model saved, epoch:395
+2023-10-25 23:56:54,607 - logs - INFO - train epoch 396/450, train_loss = 0.0000655370, time = 119.3760678768
+2023-10-25 23:56:58,945 - logs - INFO - valid epoch 396/450, valid_loss = 0.0000624496, time = 4.3359665871
+2023-10-25 23:58:57,930 - logs - INFO - train epoch 397/450, train_loss = 0.0000655452, time = 118.9830198288
+2023-10-25 23:59:02,141 - logs - INFO - valid epoch 397/450, valid_loss = 0.0000624740, time = 4.2085032463
+2023-10-26 00:01:01,152 - logs - INFO - train epoch 398/450, train_loss = 0.0000656253, time = 119.0091001987
+2023-10-26 00:01:05,304 - logs - INFO - valid epoch 398/450, valid_loss = 0.0000625110, time = 4.1503462791
+2023-10-26 00:03:04,368 - logs - INFO - train epoch 399/450, train_loss = 0.0000655102, time = 119.0613899231
+2023-10-26 00:03:08,438 - logs - INFO - valid epoch 399/450, valid_loss = 0.0000625457, time = 4.0680105686
+2023-10-26 00:05:06,958 - logs - INFO - train epoch 400/450, train_loss = 0.0000656106, time = 118.5182611942
+2023-10-26 00:05:11,024 - logs - INFO - valid epoch 400/450, valid_loss = 0.0000624608, time = 4.0632100105
+2023-10-26 00:05:11,037 - logs - INFO - Per 50, model saved, epoch:400
+2023-10-26 00:05:11,058 - logs - INFO - Latest, model saved, epoch:400
+2023-10-26 00:07:09,028 - logs - INFO - train epoch 401/450, train_loss = 0.0000655494, time = 117.9677405357
+2023-10-26 00:07:13,559 - logs - INFO - valid epoch 401/450, valid_loss = 0.0000625304, time = 4.5291645527
+2023-10-26 00:09:12,437 - logs - INFO - train epoch 402/450, train_loss = 0.0000655583, time = 118.8761403561
+2023-10-26 00:09:16,734 - logs - INFO - valid epoch 402/450, valid_loss = 0.0000624734, time = 4.2949984074
+2023-10-26 00:11:15,282 - logs - INFO - train epoch 403/450, train_loss = 0.0000655590, time = 118.5451045036
+2023-10-26 00:11:19,532 - logs - INFO - valid epoch 403/450, valid_loss = 0.0000624648, time = 4.2484099865
+2023-10-26 00:13:18,468 - logs - INFO - train epoch 404/450, train_loss = 0.0000655528, time = 118.9337770939
+2023-10-26 00:13:22,589 - logs - INFO - valid epoch 404/450, valid_loss = 0.0000625011, time = 4.1185970306
+2023-10-26 00:15:21,286 - logs - INFO - train epoch 405/450, train_loss = 0.0000655648, time = 118.6945128441
+2023-10-26 00:15:25,462 - logs - INFO - valid epoch 405/450, valid_loss = 0.0000624877, time = 4.1737332344
+2023-10-26 00:15:25,476 - logs - INFO - Latest, model saved, epoch:405
+2023-10-26 00:17:24,379 - logs - INFO - train epoch 406/450, train_loss = 0.0000655489, time = 118.8900363445
+2023-10-26 00:17:28,592 - logs - INFO - valid epoch 406/450, valid_loss = 0.0000625008, time = 4.2104878426
+2023-10-26 00:19:27,141 - logs - INFO - train epoch 407/450, train_loss = 0.0000656038, time = 118.5470032692
+2023-10-26 00:19:31,272 - logs - INFO - valid epoch 407/450, valid_loss = 0.0000624969, time = 4.1290419102
+2023-10-26 00:21:29,182 - logs - INFO - train epoch 408/450, train_loss = 0.0000655416, time = 117.9088571072
+2023-10-26 00:21:33,460 - logs - INFO - valid epoch 408/450, valid_loss = 0.0000625314, time = 4.2756137848
+2023-10-26 00:23:32,776 - logs - INFO - train epoch 409/450, train_loss = 0.0000655721, time = 119.3137085438
+2023-10-26 00:23:36,844 - logs - INFO - valid epoch 409/450, valid_loss = 0.0000624689, time = 4.0665132999
+2023-10-26 00:25:35,118 - logs - INFO - train epoch 410/450, train_loss = 0.0000655678, time = 118.2718327045
+2023-10-26 00:25:39,303 - logs - INFO - valid epoch 410/450, valid_loss = 0.0000625537, time = 4.1825921535
+2023-10-26 00:25:39,324 - logs - INFO - Latest, model saved, epoch:410
+2023-10-26 00:27:36,591 - logs - INFO - train epoch 411/450, train_loss = 0.0000655807, time = 117.2651181221
+2023-10-26 00:27:40,777 - logs - INFO - valid epoch 411/450, valid_loss = 0.0000625384, time = 4.1837995052
+2023-10-26 00:29:39,483 - logs - INFO - train epoch 412/450, train_loss = 0.0000655536, time = 118.7037739754
+2023-10-26 00:29:43,812 - logs - INFO - valid epoch 412/450, valid_loss = 0.0000625294, time = 4.3278236389
+2023-10-26 00:31:42,660 - logs - INFO - train epoch 413/450, train_loss = 0.0000655853, time = 118.8453969955
+2023-10-26 00:31:46,938 - logs - INFO - valid epoch 413/450, valid_loss = 0.0000624895, time = 4.2763259411
+2023-10-26 00:33:45,167 - logs - INFO - train epoch 414/450, train_loss = 0.0000655321, time = 118.2267704010
+2023-10-26 00:33:49,398 - logs - INFO - valid epoch 414/450, valid_loss = 0.0000624932, time = 4.2291407585
+2023-10-26 00:35:47,062 - logs - INFO - train epoch 415/450, train_loss = 0.0000655296, time = 117.6616137028
+2023-10-26 00:35:51,217 - logs - INFO - valid epoch 415/450, valid_loss = 0.0000624926, time = 4.1531808376
+2023-10-26 00:35:51,235 - logs - INFO - Latest, model saved, epoch:415
+2023-10-26 00:37:50,287 - logs - INFO - train epoch 416/450, train_loss = 0.0000655420, time = 119.0504055023
+2023-10-26 00:37:54,262 - logs - INFO - valid epoch 416/450, valid_loss = 0.0000624585, time = 3.9726057053
+2023-10-26 00:39:53,497 - logs - INFO - train epoch 417/450, train_loss = 0.0000655760, time = 119.2331871986
+2023-10-26 00:39:57,621 - logs - INFO - valid epoch 417/450, valid_loss = 0.0000625452, time = 4.1217224598
+2023-10-26 00:41:56,174 - logs - INFO - train epoch 418/450, train_loss = 0.0000655870, time = 118.5515797138
+2023-10-26 00:42:00,267 - logs - INFO - valid epoch 418/450, valid_loss = 0.0000626152, time = 4.0904445648
+2023-10-26 00:43:58,798 - logs - INFO - train epoch 419/450, train_loss = 0.0000655360, time = 118.5292639732
+2023-10-26 00:44:02,959 - logs - INFO - valid epoch 419/450, valid_loss = 0.0000625888, time = 4.1596722603
+2023-10-26 00:46:01,183 - logs - INFO - train epoch 420/450, train_loss = 0.0000655513, time = 118.2209973335
+2023-10-26 00:46:05,420 - logs - INFO - valid epoch 420/450, valid_loss = 0.0000624920, time = 4.2353942394
+2023-10-26 00:46:05,435 - logs - INFO - Latest, model saved, epoch:420
+2023-10-26 00:48:04,670 - logs - INFO - train epoch 421/450, train_loss = 0.0000655335, time = 119.2336120605
+2023-10-26 00:48:08,918 - logs - INFO - valid epoch 421/450, valid_loss = 0.0000625115, time = 4.2463843822
+2023-10-26 00:50:08,458 - logs - INFO - train epoch 422/450, train_loss = 0.0000655217, time = 119.5382058620
+2023-10-26 00:50:12,677 - logs - INFO - valid epoch 422/450, valid_loss = 0.0000626170, time = 4.2162959576
+2023-10-26 00:52:11,239 - logs - INFO - train epoch 423/450, train_loss = 0.0000655146, time = 118.5601558685
+2023-10-26 00:52:15,378 - logs - INFO - valid epoch 423/450, valid_loss = 0.0000625912, time = 4.1370105743
+2023-10-26 00:54:13,675 - logs - INFO - train epoch 424/450, train_loss = 0.0000655480, time = 118.2945296764
+2023-10-26 00:54:17,789 - logs - INFO - valid epoch 424/450, valid_loss = 0.0000624701, time = 4.1119048595
+2023-10-26 00:56:16,541 - logs - INFO - train epoch 425/450, train_loss = 0.0000655227, time = 118.7494504452
+2023-10-26 00:56:20,774 - logs - INFO - valid epoch 425/450, valid_loss = 0.0000625369, time = 4.2306673527
+2023-10-26 00:56:20,793 - logs - INFO - Latest, model saved, epoch:425
+2023-10-26 00:58:19,026 - logs - INFO - train epoch 426/450, train_loss = 0.0000655765, time = 118.2305550575
+2023-10-26 00:58:22,995 - logs - INFO - valid epoch 426/450, valid_loss = 0.0000625431, time = 3.9670608044
+2023-10-26 01:00:22,363 - logs - INFO - train epoch 427/450, train_loss = 0.0000655191, time = 119.3658356667
+2023-10-26 01:00:26,824 - logs - INFO - valid epoch 427/450, valid_loss = 0.0000625213, time = 4.4585440159
+2023-10-26 01:02:25,750 - logs - INFO - train epoch 428/450, train_loss = 0.0000655512, time = 118.9237184525
+2023-10-26 01:02:30,001 - logs - INFO - valid epoch 428/450, valid_loss = 0.0000625587, time = 4.2488577366
+2023-10-26 01:04:28,569 - logs - INFO - train epoch 429/450, train_loss = 0.0000655457, time = 118.5663809776
+2023-10-26 01:04:32,761 - logs - INFO - valid epoch 429/450, valid_loss = 0.0000625574, time = 4.1899371147
+2023-10-26 01:06:32,459 - logs - INFO - train epoch 430/450, train_loss = 0.0000655256, time = 119.6962451935
+2023-10-26 01:06:36,415 - logs - INFO - valid epoch 430/450, valid_loss = 0.0000625089, time = 3.9538247585
+2023-10-26 01:06:36,434 - logs - INFO - Latest, model saved, epoch:430
+2023-10-26 01:08:34,930 - logs - INFO - train epoch 431/450, train_loss = 0.0000655573, time = 118.4943916798
+2023-10-26 01:08:39,102 - logs - INFO - valid epoch 431/450, valid_loss = 0.0000625024, time = 4.1699364185
+2023-10-26 01:10:37,291 - logs - INFO - train epoch 432/450, train_loss = 0.0000655330, time = 118.1854758263
+2023-10-26 01:10:41,503 - logs - INFO - valid epoch 432/450, valid_loss = 0.0000625426, time = 4.2100737095
+2023-10-26 01:12:40,340 - logs - INFO - train epoch 433/450, train_loss = 0.0000655714, time = 118.8343381882
+2023-10-26 01:12:44,528 - logs - INFO - valid epoch 433/450, valid_loss = 0.0000625053, time = 4.1868059635
+2023-10-26 01:14:42,872 - logs - INFO - train epoch 434/450, train_loss = 0.0000655753, time = 118.3414146900
+2023-10-26 01:14:47,020 - logs - INFO - valid epoch 434/450, valid_loss = 0.0000625034, time = 4.1452877522
+2023-10-26 01:16:45,523 - logs - INFO - train epoch 435/450, train_loss = 0.0000655503, time = 118.5010547638
+2023-10-26 01:16:49,652 - logs - INFO - valid epoch 435/450, valid_loss = 0.0000624802, time = 4.1274676323
+2023-10-26 01:16:49,670 - logs - INFO - Latest, model saved, epoch:435
+2023-10-26 01:18:48,466 - logs - INFO - train epoch 436/450, train_loss = 0.0000655629, time = 118.7946000099
+2023-10-26 01:18:52,579 - logs - INFO - valid epoch 436/450, valid_loss = 0.0000624646, time = 4.1107470989
+2023-10-26 01:20:51,212 - logs - INFO - train epoch 437/450, train_loss = 0.0000655577, time = 118.6309232712
+2023-10-26 01:20:55,365 - logs - INFO - valid epoch 437/450, valid_loss = 0.0000625644, time = 4.1511414051
+2023-10-26 01:22:54,508 - logs - INFO - train epoch 438/450, train_loss = 0.0000655582, time = 119.1409962177
+2023-10-26 01:22:58,577 - logs - INFO - valid epoch 438/450, valid_loss = 0.0000625815, time = 4.0666964054
+2023-10-26 01:24:58,160 - logs - INFO - train epoch 439/450, train_loss = 0.0000655635, time = 119.5809943676
+2023-10-26 01:25:02,250 - logs - INFO - valid epoch 439/450, valid_loss = 0.0000625113, time = 4.0881471634
+2023-10-26 01:27:01,647 - logs - INFO - train epoch 440/450, train_loss = 0.0000655680, time = 119.3943622112
+2023-10-26 01:27:05,721 - logs - INFO - valid epoch 440/450, valid_loss = 0.0000625163, time = 4.0712673664
+2023-10-26 01:27:05,744 - logs - INFO - Latest, model saved, epoch:440
+2023-10-26 01:29:03,683 - logs - INFO - train epoch 441/450, train_loss = 0.0000655606, time = 117.9375584126
+2023-10-26 01:29:07,972 - logs - INFO - valid epoch 441/450, valid_loss = 0.0000625660, time = 4.2862465382
+2023-10-26 01:31:06,895 - logs - INFO - train epoch 442/450, train_loss = 0.0000655936, time = 118.9217574596
+2023-10-26 01:31:11,083 - logs - INFO - valid epoch 442/450, valid_loss = 0.0000624971, time = 4.1859257221
+2023-10-26 01:33:09,523 - logs - INFO - train epoch 443/450, train_loss = 0.0000655711, time = 118.4381842613
+2023-10-26 01:33:13,699 - logs - INFO - valid epoch 443/450, valid_loss = 0.0000625546, time = 4.1732821465
+2023-10-26 01:35:11,940 - logs - INFO - train epoch 444/450, train_loss = 0.0000655432, time = 118.2389214039
+2023-10-26 01:35:16,298 - logs - INFO - valid epoch 444/450, valid_loss = 0.0000624807, time = 4.3561809063
+2023-10-26 01:37:14,387 - logs - INFO - train epoch 445/450, train_loss = 0.0000655362, time = 118.0872185230
+2023-10-26 01:37:18,608 - logs - INFO - valid epoch 445/450, valid_loss = 0.0000624707, time = 4.2190458775
+2023-10-26 01:37:18,622 - logs - INFO - Latest, model saved, epoch:445
+2023-10-26 01:39:17,248 - logs - INFO - train epoch 446/450, train_loss = 0.0000655575, time = 118.6245341301
+2023-10-26 01:39:21,474 - logs - INFO - valid epoch 446/450, valid_loss = 0.0000625342, time = 4.2242968082
+2023-10-26 01:41:20,606 - logs - INFO - train epoch 447/450, train_loss = 0.0000655273, time = 119.1302638054
+2023-10-26 01:41:24,721 - logs - INFO - valid epoch 447/450, valid_loss = 0.0000624810, time = 4.1124269962
+2023-10-26 01:43:23,696 - logs - INFO - train epoch 448/450, train_loss = 0.0000655368, time = 118.9729430676
+2023-10-26 01:43:27,843 - logs - INFO - valid epoch 448/450, valid_loss = 0.0000624964, time = 4.1449658871
+2023-10-26 01:45:26,662 - logs - INFO - train epoch 449/450, train_loss = 0.0000655324, time = 118.8172073364
+2023-10-26 01:45:30,753 - logs - INFO - valid epoch 449/450, valid_loss = 0.0000624957, time = 4.0886073112
+2023-10-26 01:47:29,030 - logs - INFO - train epoch 450/450, train_loss = 0.0000655305, time = 118.2740201950
+2023-10-26 01:47:32,995 - logs - INFO - valid epoch 450/450, valid_loss = 0.0000626202, time = 3.9629926682
+2023-10-26 01:47:33,012 - logs - INFO - Per 50, model saved, epoch:450
+2023-10-26 01:47:33,033 - logs - INFO - Latest, model saved, epoch:450

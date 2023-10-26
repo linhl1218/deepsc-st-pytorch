@@ -1,0 +1,115 @@
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+                                             module name  input shape output shape    params memory(MB)             MAdd            Flops  MemRead(B)  MemWrite(B) duration[%]    MemR+W(B)
+0                                sem_encoder.conv.0.conv    1 128 128   32 128 128     832.0       2.00     26,214,400.0     13,631,488.0     68864.0    2097152.0       6.68%    2166016.0
+1                          sem_encoder.conv.0.batch_norm   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       1.43%    4194560.0
+2                                     sem_encoder.conv.1   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.98%    4194304.0
+3      sem_encoder.se_resnets_net.0.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       6.07%    3196992.0
+4      sem_encoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.33%    2097280.0
+5      sem_encoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.25%    2097152.0
+6      sem_encoder.se_resnets_net.0.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.28%    3196992.0
+7      sem_encoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.29%    2097280.0
+8      sem_encoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.43%    2097152.0
+9      sem_encoder.se_resnets_net.0.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       3.59%    4198528.0
+10      sem_encoder.se_resnets_net.0.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.46%    4194560.0
+11       sem_encoder.se_resnets_net.0.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.90%          0.0
+12           sem_encoder.se_resnets_net.0.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.65%       1216.0
+13           sem_encoder.se_resnets_net.0.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.11%         64.0
+14           sem_encoder.se_resnets_net.0.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.16%       1312.0
+15           sem_encoder.se_resnets_net.0.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.28%          0.0
+16                          sem_encoder.se_resnets_net.1   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.69%    4194304.0
+17     sem_encoder.se_resnets_net.2.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.12%    3196992.0
+18     sem_encoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.45%    2097280.0
+19     sem_encoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.19%    2097152.0
+20     sem_encoder.se_resnets_net.2.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.79%    3196992.0
+21     sem_encoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.30%    2097280.0
+22     sem_encoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.44%    2097152.0
+23     sem_encoder.se_resnets_net.2.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.85%    4198528.0
+24      sem_encoder.se_resnets_net.2.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.95%    4194560.0
+25       sem_encoder.se_resnets_net.2.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.43%          0.0
+26           sem_encoder.se_resnets_net.2.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.25%       1216.0
+27           sem_encoder.se_resnets_net.2.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.10%         64.0
+28           sem_encoder.se_resnets_net.2.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.16%       1312.0
+29           sem_encoder.se_resnets_net.2.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+30                          sem_encoder.se_resnets_net.3   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.67%    4194304.0
+31     sem_encoder.se_resnets_net.4.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.15%    3196992.0
+32     sem_encoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.42%    2097280.0
+33     sem_encoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.38%    2097152.0
+34     sem_encoder.se_resnets_net.4.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.62%    3196992.0
+35     sem_encoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.31%    2097280.0
+36     sem_encoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.21%    2097152.0
+37     sem_encoder.se_resnets_net.4.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.76%    4198528.0
+38      sem_encoder.se_resnets_net.4.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.94%    4194560.0
+39       sem_encoder.se_resnets_net.4.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.43%          0.0
+40           sem_encoder.se_resnets_net.4.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.25%       1216.0
+41           sem_encoder.se_resnets_net.4.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.10%         64.0
+42           sem_encoder.se_resnets_net.4.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.14%       1312.0
+43           sem_encoder.se_resnets_net.4.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+44                          sem_encoder.se_resnets_net.5   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.66%    4194304.0
+45     sem_encoder.se_resnets_net.6.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.10%    3196992.0
+46     sem_encoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.54%    2097280.0
+47     sem_encoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.20%    2097152.0
+48     sem_encoder.se_resnets_net.6.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.66%    3196992.0
+49     sem_encoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.32%    2097280.0
+50     sem_encoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.49%    2097152.0
+51     sem_encoder.se_resnets_net.6.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.78%    4198528.0
+52      sem_encoder.se_resnets_net.6.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.90%    4194560.0
+53       sem_encoder.se_resnets_net.6.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.42%          0.0
+54           sem_encoder.se_resnets_net.6.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.24%       1216.0
+55           sem_encoder.se_resnets_net.6.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.11%         64.0
+56           sem_encoder.se_resnets_net.6.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.14%       1312.0
+57           sem_encoder.se_resnets_net.6.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.10%          0.0
+58                          sem_encoder.se_resnets_net.7   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.69%    4194304.0
+59     sem_encoder.se_resnets_net.8.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.16%    3196992.0
+60     sem_encoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.47%    2097280.0
+61     sem_encoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.41%    2097152.0
+62     sem_encoder.se_resnets_net.8.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.62%    3196992.0
+63     sem_encoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.30%    2097280.0
+64     sem_encoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.21%    2097152.0
+65     sem_encoder.se_resnets_net.8.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.76%    4198528.0
+66      sem_encoder.se_resnets_net.8.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.50%    4194560.0
+67       sem_encoder.se_resnets_net.8.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.42%          0.0
+68           sem_encoder.se_resnets_net.8.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.23%       1216.0
+69           sem_encoder.se_resnets_net.8.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.09%         64.0
+70           sem_encoder.se_resnets_net.8.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.14%       1312.0
+71           sem_encoder.se_resnets_net.8.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.10%          0.0
+72                          sem_encoder.se_resnets_net.9   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.70%    4194304.0
+73                             chan_encoder.conv_bn.conv   32 128 128    8 128 128    6408.0       0.50    209,715,200.0    104,988,672.0   2122784.0     524288.0       5.05%    2647072.0
+74                       chan_encoder.conv_bn.batch_norm    8 128 128    8 128 128      16.0       0.50        524,288.0        262,144.0    524352.0     524288.0       0.29%    1048640.0
+total                                                                               144160.0      67.00  4,627,370,848.0  2,322,467,368.0    524352.0     524288.0     100.00%  151114752.0
+===========================================================================================================================================================================================
+Total params: 144,160
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total memory: 67.00MB
+Total MAdd: 4.63GMAdd
+Total Flops: 2.32GFlops
+Total MemR+W: 144.11MB
+

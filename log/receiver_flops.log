@@ -1,0 +1,134 @@
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+[MAdd]: AdaptiveAvgPool2d is not supported!
+[Flops]: AdaptiveAvgPool2d is not supported!
+[Memory]: AdaptiveAvgPool2d is not supported!
+[MAdd]: Sigmoid is not supported!
+[Flops]: Sigmoid is not supported!
+[Memory]: Sigmoid is not supported!
+                                             module name  input shape output shape    params memory(MB)             MAdd            Flops  MemRead(B)  MemWrite(B) duration[%]    MemR+W(B)
+0                              chan_decoder.conv_bn.conv    8 128 128   32 128 128    6432.0       2.00    209,715,200.0    105,381,888.0    550016.0    2097152.0       7.64%    2647168.0
+1                        chan_decoder.conv_bn.batch_norm   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       1.13%    4194560.0
+2                                      chan_decoder.relu   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.94%    4194304.0
+3      sem_decoder.se_resnets_net.0.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       5.24%    3196992.0
+4      sem_decoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.31%    2097280.0
+5      sem_decoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.38%    2097152.0
+6      sem_decoder.se_resnets_net.0.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.58%    3196992.0
+7      sem_decoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.24%    2097280.0
+8      sem_decoder.se_resnets_net.0.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.46%    2097152.0
+9      sem_decoder.se_resnets_net.0.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       3.09%    4198528.0
+10      sem_decoder.se_resnets_net.0.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.74%    4194560.0
+11       sem_decoder.se_resnets_net.0.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.79%          0.0
+12           sem_decoder.se_resnets_net.0.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.55%       1216.0
+13           sem_decoder.se_resnets_net.0.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.09%         64.0
+14           sem_decoder.se_resnets_net.0.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.14%       1312.0
+15           sem_decoder.se_resnets_net.0.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.26%          0.0
+16                          sem_decoder.se_resnets_net.1   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.60%    4194304.0
+17     sem_decoder.se_resnets_net.2.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.48%    3196992.0
+18     sem_decoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.32%    2097280.0
+19     sem_decoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.29%    2097152.0
+20     sem_decoder.se_resnets_net.2.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.35%    3196992.0
+21     sem_decoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.25%    2097280.0
+22     sem_decoder.se_resnets_net.2.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.36%    2097152.0
+23     sem_decoder.se_resnets_net.2.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.06%    4198528.0
+24      sem_decoder.se_resnets_net.2.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.31%    4194560.0
+25       sem_decoder.se_resnets_net.2.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.34%          0.0
+26           sem_decoder.se_resnets_net.2.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.20%       1216.0
+27           sem_decoder.se_resnets_net.2.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.08%         64.0
+28           sem_decoder.se_resnets_net.2.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.13%       1312.0
+29           sem_decoder.se_resnets_net.2.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.08%          0.0
+30                          sem_decoder.se_resnets_net.3   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.59%    4194304.0
+31     sem_decoder.se_resnets_net.4.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.41%    3196992.0
+32     sem_decoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.27%    2097280.0
+33     sem_decoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.21%    2097152.0
+34     sem_decoder.se_resnets_net.4.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.44%    3196992.0
+35     sem_decoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.24%    2097280.0
+36     sem_decoder.se_resnets_net.4.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.40%    2097152.0
+37     sem_decoder.se_resnets_net.4.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.04%    4198528.0
+38      sem_decoder.se_resnets_net.4.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.31%    4194560.0
+39       sem_decoder.se_resnets_net.4.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.34%          0.0
+40           sem_decoder.se_resnets_net.4.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.19%       1216.0
+41           sem_decoder.se_resnets_net.4.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.08%         64.0
+42           sem_decoder.se_resnets_net.4.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.12%       1312.0
+43           sem_decoder.se_resnets_net.4.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+44                          sem_decoder.se_resnets_net.5   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.60%    4194304.0
+45     sem_decoder.se_resnets_net.6.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.47%    3196992.0
+46     sem_decoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.26%    2097280.0
+47     sem_decoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.21%    2097152.0
+48     sem_decoder.se_resnets_net.6.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.46%    3196992.0
+49     sem_decoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.25%    2097280.0
+50     sem_decoder.se_resnets_net.6.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.36%    2097152.0
+51     sem_decoder.se_resnets_net.6.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.40%    4198528.0
+52      sem_decoder.se_resnets_net.6.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.76%    4194560.0
+53       sem_decoder.se_resnets_net.6.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.36%          0.0
+54           sem_decoder.se_resnets_net.6.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.21%       1216.0
+55           sem_decoder.se_resnets_net.6.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.08%         64.0
+56           sem_decoder.se_resnets_net.6.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.12%       1312.0
+57           sem_decoder.se_resnets_net.6.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+58                          sem_decoder.se_resnets_net.7   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.59%    4194304.0
+59     sem_decoder.se_resnets_net.8.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.51%    3196992.0
+60     sem_decoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.33%    2097280.0
+61     sem_decoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.33%    2097152.0
+62     sem_decoder.se_resnets_net.8.split_layer.layer...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.10%    3196992.0
+63     sem_decoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.25%    2097280.0
+64     sem_decoder.se_resnets_net.8.split_layer.layer...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.17%    2097152.0
+65     sem_decoder.se_resnets_net.8.transition_layer....   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.39%    4198528.0
+66      sem_decoder.se_resnets_net.8.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.73%    4194560.0
+67       sem_decoder.se_resnets_net.8.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.35%          0.0
+68           sem_decoder.se_resnets_net.8.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.21%       1216.0
+69           sem_decoder.se_resnets_net.8.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.08%         64.0
+70           sem_decoder.se_resnets_net.8.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.13%       1312.0
+71           sem_decoder.se_resnets_net.8.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+72                          sem_decoder.se_resnets_net.9   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.63%    4194304.0
+73     sem_decoder.se_resnets_net.10.split_layer.laye...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.48%    3196992.0
+74     sem_decoder.se_resnets_net.10.split_layer.laye...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.32%    2097280.0
+75     sem_decoder.se_resnets_net.10.split_layer.laye...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.29%    2097152.0
+76     sem_decoder.se_resnets_net.10.split_layer.laye...   32 128 128   16 128 128   12816.0       1.00    419,430,400.0    209,977,344.0   2148416.0    1048576.0       4.09%    3196992.0
+77     sem_decoder.se_resnets_net.10.split_layer.laye...   16 128 128   16 128 128      32.0       1.00      1,048,576.0        524,288.0   1048704.0    1048576.0       0.26%    2097280.0
+78     sem_decoder.se_resnets_net.10.split_layer.laye...   16 128 128   16 128 128       0.0       1.00        262,144.0        262,144.0   1048576.0    1048576.0       0.17%    2097152.0
+79     sem_decoder.se_resnets_net.10.transition_layer...   32 128 128   32 128 128    1056.0       2.00     33,554,432.0     17,301,504.0   2101376.0    2097152.0       2.40%    4198528.0
+80     sem_decoder.se_resnets_net.10.transition_layer.bn   32 128 128   32 128 128      64.0       2.00      2,097,152.0      1,048,576.0   2097408.0    2097152.0       0.44%    4194560.0
+81      sem_decoder.se_resnets_net.10.se_layer.net.0.net   32 128 128   32   1   1       0.0       0.00              0.0              0.0         0.0          0.0       0.35%          0.0
+82          sem_decoder.se_resnets_net.10.se_layer.net.1           32            8     264.0       0.00            504.0            256.0      1184.0         32.0       0.19%       1216.0
+83          sem_decoder.se_resnets_net.10.se_layer.net.2            8            8       0.0       0.00              8.0              8.0        32.0         32.0       0.08%         64.0
+84          sem_decoder.se_resnets_net.10.se_layer.net.3            8           32     288.0       0.00            480.0            256.0      1184.0        128.0       0.13%       1312.0
+85          sem_decoder.se_resnets_net.10.se_layer.net.4           32           32       0.0       0.00              0.0              0.0         0.0          0.0       0.09%          0.0
+86                         sem_decoder.se_resnets_net.11   32 128 128   32 128 128       0.0       2.00        524,288.0        524,288.0   2097152.0    2097152.0       0.60%    4194304.0
+87                             sem_decoder.final_layer.0   32 128 128    1 128 128      32.0       0.06      1,032,192.0        524,288.0   2097280.0      65536.0       2.45%    2162816.0
+total                                                                               170736.0      78.07  5,479,323,456.0  2,749,893,680.0   2097280.0      65536.0     100.00%  177435840.0
+===========================================================================================================================================================================================
+Total params: 170,736
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total memory: 78.07MB
+Total MAdd: 5.48GMAdd
+Total Flops: 2.75GFlops
+Total MemR+W: 169.22MB
+

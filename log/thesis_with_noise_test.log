@@ -1,0 +1,56 @@
+2023-10-25 11:17:15,519 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 11:17:15,519 - logs - INFO - *****************   start test   *****************
+2023-10-25 11:26:20,191 - logs - INFO - valid_loss = 0.0000629601, time = 544.4516272545, sdr:20.1398, pesq:3.3850, stoi:0.9177
+2023-10-25 13:12:52,766 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 13:12:52,766 - logs - INFO - *****************   start test   *****************
+2023-10-25 13:22:02,150 - logs - INFO - valid_loss = 0.0000274731, time = 549.1535248756, sdr:24.1382, pesq:4.0133, stoi:0.9578
+2023-10-25 21:55:17,183 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 21:55:17,183 - logs - INFO - *****************   start test   *****************
+2023-10-25 21:55:17,402 - logs - INFO - channel_type: awgn
+2023-10-25 21:57:46,847 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 21:57:46,847 - logs - INFO - *****************   start test   *****************
+2023-10-25 21:57:47,068 - logs - INFO - channel_type: awgn
+2023-10-25 21:57:58,404 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 21:57:58,404 - logs - INFO - *****************   start test   *****************
+2023-10-25 21:57:58,627 - logs - INFO - channel_type: awgn
+2023-10-25 21:58:21,270 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 21:58:21,270 - logs - INFO - *****************   start test   *****************
+2023-10-25 21:58:21,488 - logs - INFO - channel_type: awgn
+2023-10-25 21:59:17,017 - logs - INFO - snr:0, pesq_mean:2.551672875881195, mean_sdr:12.85667918783731, mean_stoi:0.8248205734219602
+2023-10-25 22:00:11,791 - logs - INFO - snr:2, pesq_mean:2.9757308065891266, mean_sdr:14.986385877235794, mean_stoi:0.8575409960703064
+2023-10-25 22:01:08,404 - logs - INFO - snr:4, pesq_mean:3.3770135939121246, mean_sdr:16.950146762046323, mean_stoi:0.8827169302031574
+2023-10-25 22:02:04,507 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 22:02:04,507 - logs - INFO - *****************   start test   *****************
+2023-10-25 22:02:04,730 - logs - INFO - channel_type: awgn
+2023-10-25 22:03:02,776 - logs - INFO - snr:0, pesq_mean:2.578728571534157, mean_sdr:12.851163365673195, mean_stoi:0.8256794292883798
+2023-10-25 22:03:19,993 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 22:03:19,993 - logs - INFO - *****************   start test   *****************
+2023-10-25 22:03:21,078 - logs - INFO - channel_type: awgn
+2023-10-25 22:04:15,533 - logs - INFO - snr:0, pesq_mean:2.5309085845947266, mean_sdr:12.818366091782199, mean_stoi:0.8230941730954728
+2023-10-25 22:04:41,757 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 22:04:41,757 - logs - INFO - *****************   start test   *****************
+2023-10-25 22:04:42,824 - logs - INFO - channel_type: awgn
+2023-10-25 22:05:37,703 - logs - INFO - snr:0, pesq_mean:2.541843853890896, mean_sdr:12.84065203232242, mean_stoi:0.8242159860219878
+2023-10-25 22:06:33,116 - logs - INFO - snr:2, pesq_mean:2.999179683625698, mean_sdr:15.0100462547111, mean_stoi:0.8597052464055928
+2023-10-25 22:07:27,673 - logs - INFO - Dataset Load!!!, valid_num:15
+2023-10-25 22:07:27,673 - logs - INFO - *****************   start test   *****************
+2023-10-25 22:07:27,936 - logs - INFO - channel_type: awgn
+2023-10-25 22:11:07,391 - logs - INFO - snr:0, pesq_mean:2.210938608273864, mean_sdr:12.783839714733945, mean_stoi:0.823763172517257
+2023-10-25 22:15:12,375 - logs - INFO - Dataset Load!!!, valid_num:60
+2023-10-25 22:15:12,375 - logs - INFO - *****************   start test   *****************
+2023-10-25 22:15:12,596 - logs - INFO - channel_type: awgn
+2023-10-25 23:09:54,807 - logs - INFO - snr:0, pesq_mean:2.1918522593875727, mean_sdr:12.871473599809253, mean_stoi:0.8184730575834919
+2023-10-26 00:04:27,670 - logs - INFO - snr:2, pesq_mean:2.5107393212616445, mean_sdr:15.036000336743685, mean_stoi:0.8536819543983377
+2023-10-26 00:59:07,484 - logs - INFO - snr:4, pesq_mean:2.8381230061252913, mean_sdr:16.99155201272118, mean_stoi:0.879977407448538
+2023-10-26 01:53:05,793 - logs - INFO - snr:6, pesq_mean:3.135514916976293, mean_sdr:18.732996934094235, mean_stoi:0.8997081844981049
+2023-10-26 02:41:17,477 - logs - INFO - snr:8, pesq_mean:3.380560385684172, mean_sdr:20.2237458014751, mean_stoi:0.9152215919888952
+2023-10-26 03:29:31,636 - logs - INFO - snr:10, pesq_mean:3.5736950329194466, mean_sdr:21.451086340527834, mean_stoi:0.927079406349866
+2023-10-26 04:17:35,488 - logs - INFO - snr:12, pesq_mean:3.714408503845334, mean_sdr:22.408468126182733, mean_stoi:0.9361663697188375
+2023-10-26 05:05:53,460 - logs - INFO - snr:14, pesq_mean:3.819666316360235, mean_sdr:23.125834056720507, mean_stoi:0.943444525117851
+2023-10-26 05:54:04,218 - logs - INFO - snr:16, pesq_mean:3.8946906508256993, mean_sdr:23.640251622235862, mean_stoi:0.9488190558882562
+2023-10-26 06:42:27,092 - logs - INFO - snr:18, pesq_mean:3.949319252495964, mean_sdr:23.99686766618331, mean_stoi:0.9531198217945797
+2023-10-26 07:30:36,262 - logs - INFO - snr:20, pesq_mean:3.986648333321015, mean_sdr:24.23903395524103, mean_stoi:0.9561732927320539
+2023-10-26 08:18:47,623 - logs - INFO - snr:22, pesq_mean:4.012126507858436, mean_sdr:24.39583277533556, mean_stoi:0.9585080907987865
+2023-10-26 09:06:47,729 - logs - INFO - snr:24, pesq_mean:4.029177255307634, mean_sdr:24.499845115332473, mean_stoi:0.960288836856088
+2023-10-26 09:56:09,551 - logs - INFO - snr:26, pesq_mean:4.041183545812965, mean_sdr:24.565864880988176, mean_stoi:0.9614263000583692
+2023-10-26 10:50:40,023 - logs - INFO - snr:28, pesq_mean:4.0481899307419855, mean_sdr:24.608407660818283, mean_stoi:0.9622069673331815
