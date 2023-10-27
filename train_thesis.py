@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on 2023/10/12
+Created on 2023/10/27
 Author: Hailong Lin
-File: train.py
+File: train_thesis.py
 Email: linhl@emnets.org
-Last modified: 2023/10/12 19:35
+Last modified: 2023/10/27 13:09
 """
 import os
 import torch
 from torch.utils.data import DataLoader
-from torch.optim import Adam, SGD
+from torch.optim import AdamW, SGD
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import time
 import numpy as np
@@ -19,6 +19,10 @@ from log import create_logger
 from custom_dataset import CustomDataset
 from config import Config
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+if torch.cuda.is_available():
+    torch.backends.cudnn.benchmark = True
+    scaler = torch.cuda.amp.GradScaler()
+
 opt = parse_args()
 channel_type = opt.channel_type
 name = "thesis_with_noise"
@@ -34,20 +38,16 @@ train_dataset = CustomDataset(trainset)
 valid_dataset = CustomDataset(validset)
 # 创建数据加载器
 train_dataloader = DataLoader(train_dataset, batch_size=opt.batch_size * 2, shuffle=True,
-                              drop_last=True, num_workers=2)
+                              drop_last=True, num_workers=2, pin_memory=True, persistent_workers=True)
 valid_dataloader = DataLoader(valid_dataset, batch_size=opt.batch_size, shuffle=False,
-                              drop_last=True, num_workers=2)
+                              drop_last=True, num_workers=2, pin_memory=True, persistent_workers=True)
 logger.info(f"Dataset Load!!!, train_num: {len(train_dataloader)}, valid_num:{len(valid_dataloader)}")
 mse_loss = torch.nn.MSELoss()
 LR_START = opt.lr
 LR_FINE = 1e-4
 MOMENTUM = 0.1
-
-# optimizer = SGD(deepsc.parameters(), lr=LR_START, momentum=MOMENTUM)
-
-optimizer = Adam(deepsc.parameters(), lr=LR_START)
-scheduler = ReduceLROnPlateau(optimizer, 'min') 
-
+optimizer = AdamW(deepsc.parameters(), lr=LR_START, betas=(0.5, 0.9))
+scheduler = None
 common_dir = "results/"
 create_dir(common_dir)
 saved_model = common_dir + f"saved_model_{name}/"
@@ -58,7 +58,6 @@ CONTINUES = 0
 # create files to save train loss
 logger.info("*****************   start train   *****************")
 MIN_VALID_LESS = 1e1
-P=opt.P
 LR_FINE_CHANGE = 1
 
 # deepsc.transmitter.load_state_dict(torch.load(saved_model + "deepsc_transmitter_min.pth")['state_dict'])
@@ -66,14 +65,13 @@ LR_FINE_CHANGE = 1
 
 for epoch in range(opt.num_epochs):
     deepsc.train()
-    if (epoch + 1) % 280 == 0 and LR_FINE_CHANGE:
+    if (epoch + 1) % 201 == 0 and LR_FINE_CHANGE:
         LR_FINE_CHANGE = 0
         optimizer = SGD(deepsc.parameters(), lr=LR_FINE, momentum=MOMENTUM)
         scheduler = ReduceLROnPlateau(optimizer, 'min')        
         logger.info(f"Change optimizer Adam to SGD, lr from {LR_START} to {LR_FINE}")
     if epoch < CONTINUES:
         continue
-
     # train_loss for each epoch
     train_loss = 0.0
     # record the train time for each epoch
@@ -83,9 +81,14 @@ for epoch in range(opt.num_epochs):
         x = _input.to(device)
         _output, _ = deepsc(x)
         loss_value = mse_loss(x, _output)
-        optimizer.zero_grad()
-        loss_value.backward()
-        optimizer.step()
+        optimizer.zero_grad(set_to_none=True)
+        ## cuda
+        scaler.scale(loss_value).backward()
+        scaler.step(optimizer)
+        scaler.update()
+        ## cpu
+        # loss_value.backward()
+        # optimizer.step()
         loss_float = float(loss_value)
         train_loss += loss_float
     train_loss /= (step + 1)
@@ -95,22 +98,20 @@ for epoch in range(opt.num_epochs):
     message = log.format(epoch + 1, opt.num_epochs, train_loss, time.time() - start)
     logger.info(message)
     ##########################    valid    ##########################
-    deepsc.eval()
     # valid_loss for each epoch
     valid_loss = 0.0
     # record the valid time for each epoch
     start = time.time()
-    for step, _input in enumerate(valid_dataloader):
-        # train step
-        with torch.no_grad():
+    deepsc.eval()
+    with torch.no_grad():
+        for step, _input in enumerate(valid_dataloader):
+            # train step
             x = _input.to(device)
             _output, _ = deepsc(x)
             loss_value = mse_loss(x, _output)
-        loss_float = float(loss_value)
-        if scheduler is not None:
-            scheduler.step(loss_value)
-        # Calculate the accumulated valid loss value
-        valid_loss += loss_float
+            loss_float = float(loss_value)
+            valid_loss += loss_float
+
     # average valid loss for each epoch
     valid_loss /= (step + 1)
     # append one epoch loss value

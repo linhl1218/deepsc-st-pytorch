@@ -5,16 +5,6 @@ import torchaudio
 import scipy.signal
 import scipy.io.wavfile
 
-# def resampler(original_sample_rate, audio_data, target_sample_rate=8000):
-#     if original_sample_rate == target_sample_rate:
-#         return audio_data
-#     # 计算重采样比率
-#     resampling_ratio = target_sample_rate / original_sample_rate
-
-#     # 使用resample函数进行重采样
-#     resampled_audio = scipy.signal.resample(audio_data, int(len(audio_data) * resampling_ratio))
-#     return resampled_audio
-
 def resampler(original_sample_rate, waveform, target_sample_rate=8000):
     if original_sample_rate != target_sample_rate:
         resampler = torchaudio.transforms.Resample(original_sample_rate, target_sample_rate)
@@ -48,11 +38,11 @@ def parse_args():
                         help="snrs")
         
     # epoch and learning rate
-    parser.add_argument("--num_epochs", type=int, default=450, help="training epochs.")
+    parser.add_argument("--num_epochs", type=int, default=400, help="training epochs.")
     
     parser.add_argument("--batch_size", type=int, default=16, help="batch size.")
     parser.add_argument("--lr", type=float, default=1e-3, help="learning rate.")
-        # path of tfrecords files
+    # path of tfrecords files
     parser.add_argument("--trainset_path", type=str, default="./dataset/deepsc/trainset_t1.pth",
                         help="records path of trainset.")
     parser.add_argument("--validset_path", type=str, default="./dataset/deepsc/validset_t1.pth",

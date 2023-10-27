@@ -9,8 +9,6 @@ class Channel(nn.Module):
         self.config = config
         self.chan_type = config.channel['type']
         self.chan_param = config.channel['chan_param']
-        # self.device = config.device
-        # print(config)
         if config.logger:
             config.logger.info('【Channel】: Built {} channel, SNR {} dB.'.format(
                 config.channel['type'], config.channel['chan_param']))

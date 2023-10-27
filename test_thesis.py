@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on 2023/10/12
+Created on 2023/10/27
 Author: Hailong Lin
-File: train.py
+File: test_thesis.py
 Email: linhl@emnets.org
-Last modified: 2023/10/12 19:35
+Last modified: 2023/10/27 13:09
 """
 import os
 import torch
@@ -18,15 +18,18 @@ from log import create_logger
 from custom_dataset import CustomDataset
 from config import Config
 from tqdm import tqdm
+if torch.cuda.is_available():
+    torch.backends.cudnn.benchmark = True
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# device = torch.device("cpu")
 opt = parse_args()
+
 name = "thesis_with_noise"
 logger = create_logger(filename=f"./log/{name}_test.log", ltype="a")
 print("Called with args:", opt)
 config = Config
 channel_type = opt.channel_type
 config.channel["type"] = channel_type
+config.logger = logger
 print("config:", config.channel)
 
 deepsc = DeepSCThesis(opt, config=config).to(device)
@@ -35,26 +38,23 @@ valid_dataset = CustomDataset(validset)
 valid_dataloader = DataLoader(valid_dataset, batch_size=opt.batch_size, shuffle=False,
                               drop_last=True, num_workers=2)
 logger.info(f"Dataset Load!!!, valid_num:{len(valid_dataloader)}")
-mse_loss = torch.nn.MSELoss()
-
 
 common_dir = "results/"
 create_dir(common_dir)
 saved_model = common_dir + f"saved_model_{name}/"
 create_dir(saved_model)
+saved_model += f"{channel_type}/"
+create_dir(saved_model)
 logger.info("*****************   start test   *****************")
 deepsc.transmitter.load_state_dict(torch.load(saved_model + "deepsc_transmitter_min.pth")['state_dict'])
 deepsc.receiver.load_state_dict(torch.load(saved_model + "deepsc_receiver_min.pth")['state_dict'])
 deepsc.eval()
-
-valid_loss = 0.0
 logger.info(f"channel_type: {channel_type}")
 valid_loss_file = saved_model + f"{channel_type}.npz"
-valid_loss_all = []
 
-valid_loss = 0.0
-# snrs = [x for x in range(0, 32, 2)]
-snrs = opt.snrs
+snrs = [x for x in range(0, 32, 2)]
+# snrs = opt.snrs
+
 PESQs = []
 SDRs = []
 STOIs = []
@@ -62,26 +62,17 @@ CHANNEL_USAGEs = []
 
 # record the valid time for each epoch
 start = time.time()
-sdrs = []
-stois = []
-pesqs = []
-
 for snr in snrs:
     PESQ = []
     SDR = []
     STOI = []
     channel_usages = []
-    channel_us = 0
-    for step, _input in enumerate(tqdm(valid_dataloader)):
-        # train step
-        # if step == 1:
-        #     break
-        with torch.no_grad():
+    with torch.no_grad():
+        for step, _input in enumerate(tqdm(valid_dataloader)):
             x = _input.to(device)
             _output, channel_usage = deepsc(x, snr=snr)
             channel_usage /= x.shape[0]
             channel_usages.append(channel_usage)
-        # try:
             x = x.cpu().detach()
             _output = _output.cpu().detach()
             for i in range(x.shape[0]):
@@ -93,9 +84,6 @@ for snr in snrs:
                 PESQ.append(score)
                 SDR.append(sdr[0])
                 STOI.append(stoi)
-            # print(channel_usage, stoi, sdr, score)
-        # except:
-        #     pass
     mean_channel_usage = sum(channel_usages) / len(channel_usages)
     mean_pesq = sum(PESQ) / len(PESQ)
     mean_sdr = sum(SDR) / len(SDR)
